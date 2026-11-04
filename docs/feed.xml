@@ -2,7 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Working papers NEP misses</title>
   <subtitle>New papers from economics working-paper series that have no RSS feed and do not reach NEP</subtitle>
-  <id>urn:econ-paper-watcher:local</id>
-  <updated>2026-11-03T22:10:21Z</updated>
+  <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
+  <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
+  <updated>2026-11-04T01:31:23Z</updated>
 
 </feed>
