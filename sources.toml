@@ -1,0 +1,650 @@
+# Recipes for econ-paper-watcher: one [[source]] table per listing page. README.md explains the fields.
+# Regular expressions are TOML literal strings ('...'), so backslashes need no escaping.
+
+# ---- Research networks -----------------------------------------------------------------------------------
+
+[[source]]
+name = "BREAD"
+series = "BREAD Working Papers"
+url = "https://www.ibread.org/working-papers"
+links = 'drive\.google\.com/open\?id=|github\.com/GunnRobert/BREAD-Working-Papers/'
+
+[[source]]
+name = "ECGI"
+series = "ECGI Working Papers (Finance; Law)"
+url = "https://www.ecgi.global/publications/working-papers"
+links = '^https://www\.ecgi\.global/publications/working-papers/'
+scope = 'article.card--working-paper'
+
+[[source]]
+name = "International Growth Centre"
+series = "IGC Working Papers"
+url = "https://www.theigc.org/publications"
+links = '^https://www\.theigc\.org/publications/'
+item = 'div.c-listing__items div.views-row'
+title = '.c-list-item__title'
+
+[[source]]
+name = "AEHN"
+series = "African Economic History Working Papers"
+url = "https://www.aehnetwork.org/working-papers/"
+links = '^https://aehnetwork\.org/working-papers/[^/?#]+'
+
+[[source]]
+name = "AERC"
+series = "AERC Research Papers"
+# AERC's own repository (DSpace) lists papers in its "Working Papers" community. The old "Research Papers" community
+# has had nothing new since early 2025, so this watches the live one. The repository's syndication feed (OpenSearch,
+# Atom) comes newest first and is plain XML, unlike the repository's JavaScript pages.
+url = "https://publication.aercafricalibrary.org/server/opensearch/search?format=atom&scope=c0479ea9-a4d0-489a-99b5-46b596e68515&query=*&rpp=40"
+kind = "feed"
+links = '/handle/123456789/\d+$'
+note = "Repository community 3 (Working Papers), c0479ea9-a4d0-489a-99b5-46b596e68515; the page people see is https://publication.aercafricalibrary.org/communities/c0479ea9-a4d0-489a-99b5-46b596e68515. The Research Papers community (f8205081-589d-4954-bfe2-7f824f424541) has had nothing new since 2025. The feed also carries policy notes that AERC files in this community."
+
+[[source]]
+name = "LACEA"
+series = "LACEA Working Paper Series"
+url = "https://lacea.org/"
+enabled = false
+reason = "LACEA's website no longer has a working paper list: the old series pages are gone and the member site is built by JavaScript."
+note = "Checked: lacea.org has no working-paper page in its sitemaps; vox.lacea.org (old home of the PDFs) is an empty server; lacer.lacea.org does not answer; app.lacea.org is a JavaScript app. RePEc (col:000518) stopped at 2022."
+
+# ---- International organizations -------------------------------------------------------------------------
+
+[[source]]
+name = "AMRO"
+series = "AMRO Working Papers"
+# The Working Papers page (/?s=&_categories=working-papers) is filled in by JavaScript (FacetWP), so the HTML has no
+# list. WordPress's own JSON API lists the same posts, newest first: category 1529 = Working Papers.
+url = "https://www.amro-asia.org/wp-json/wp/v2/posts?categories=1529&per_page=20&_fields=link,title"
+kind = "json"
+json_title = "title.rendered"
+json_link = "link"
+note = "The page people see is https://www.amro-asia.org/?s=&_categories=working-papers, which FacetWP fills in with JavaScript; WordPress JSON API category 1529 is Working Papers."
+
+[[source]]
+name = "UN DESA"
+series = "DESA Working Papers"
+url = "https://desapublications.un.org/working-papers"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403)."
+alert = "https://desapublications.un.org/un-desa-voice"
+
+[[source]]
+name = "ADB Institute"
+series = "ADBI Working Papers"
+url = "https://www.adb.org/adbi/publications/working-papers"
+enabled = false
+reason = "adb.org answers scripts with HTTP 403 (Cloudflare), so the watcher cannot read ADBI's own working paper list."
+alert = "https://www.adb.org/adbi/newsletter"
+note = "ADBI's list is on adb.org (also /publications/series/adbi-working-papers); every adb.org page, including robots.txt, gave 403. The RePEc listing is stale. Alert link is ADBI's news/publication email signup."
+
+[[source]]
+name = "African Development Bank"
+series = "AfDB Working Paper Series"
+url = "https://www.afdb.org/en/documents/publications/working-paper-series"
+scope = ".view-knowledge-documents .view-content"
+item = ".views-field-nothing"
+title = ".relatednewstitle a"
+links = '/en/documents/working-paper-\d+'
+note = "18 papers per page, newest number first; the menu links on the page are outside the .view-content block."
+
+[[source]]
+name = "CAF"
+series = "CAF Working Papers"
+# Scioteca (CAF's repository), collection 6.1 "Documentos de trabajo en investigación socioeconómica" (the Research
+# Department's working papers). The collection page lists its 20 most recent submissions, newest first.
+url = "https://scioteca.caf.com/handle/123456789/34"
+scope = ".recent-submission"
+item = "li.ds-artifact-item"
+title = ".artifact-title a"
+links = '/handle/123456789/\d+$'
+note = "The parent collection 06. Documentos de trabajo is handle 123456789/19 and also holds sector, digital and policy papers (6.2 to 6.7)."
+
+[[source]]
+name = "EBRD"
+series = "EBRD Working Papers"
+url = "https://www.ebrd.com/bin/ebrd_dxp/filterlistservlet?parentPath=/content/dam/ebrd_dxp/assets/content-fragments/working-papers&cardType=working-paper&sortBy=newest-first&currentPage=1"
+note = "The page people see, https://www.ebrd.com/home/news-and-events/publications/economics/working-papers.html, loads this JSON list with JavaScript. Its links come as View|/content/ebrd_dxp/uk/en/..., which rewrite turns into the public address."
+kind = "json"
+json_items = "searchResult"
+json_title = "title"
+json_link = "projectLinks.buttonLink1"
+rewrite = [['^View\|/content/ebrd_dxp/uk/en', 'https://www.ebrd.com']]
+
+[[source]]
+name = "European Commission (JRC)"
+series = "JRC working paper series"
+# The repository's search page is a JavaScript app, but it reads its results from a JSON service that answers a plain
+# GET. This asks it for the 20 newest items whose text names one of the three JRC working paper series (Economics and
+# Finance; Taxation and Structural Reforms; Territorial Modelling and Analysis), newest first.
+url = "https://publications.jrc.ec.europa.eu/repository/data/search/query?q=%7B%22criteria%22%3A%7B%22RESOURCE_TYPE%22%3A%22REPORT%22%7D%2C%22page%22%3A1%2C%22pageSize%22%3A20%2C%22sort%22%3A%22date-desc%22%2C%22query%22%3A%22%5C%22JRC%20Working%20Papers%20in%20Economics%20and%20Finance%5C%22%20OR%20%5C%22JRC%20Working%20Papers%20on%20Taxation%20and%20Structural%20Reforms%5C%22%20OR%20%5C%22JRC%20Working%20Papers%20on%20Territorial%20Modelling%20and%20Analysis%5C%22%22%7D&count=false"
+kind = "json"
+json_items = "items"
+json_title = "dc.title"
+json_link = "https://publications.jrc.ec.europa.eu/repository/handle/{id}"
+note = "q is JSON: {criteria:{RESOURCE_TYPE:'REPORT'}, page:1, pageSize:20, sort:'date-desc', query:'\"series name\" OR ...'}. The query is a full-text phrase search, so an occasional report that only mentions a series can slip in. Economics and Finance itself has had nothing since Dec 2023; the other two series are active in 2026."
+
+[[source]]
+name = "ILO"
+series = "ILO Working Papers"
+url = "https://www.ilo.org/research-and-publications/working-papers"
+links = '^https://www\.ilo\.org/publications/'
+
+# ---- Central banks ---------------------------------------------------------------------------------------
+
+[[source]]
+name = "Danmarks Nationalbank"
+series = "Working Papers"
+# The Working Paper page redirects to the general publications page, and the knowledge archive is built by JavaScript.
+# The bank publishes an RSS feed per publication type (see https://www.nationalbanken.dk/en/rss-feeds); this is the one
+# for Working Papers.
+url = "https://www.nationalbanken.dk/api/rssfeed?topic=Working+Paper&lang=en"
+kind = "feed"
+links = '/working-paper/'
+note = "RSS feed per type; the feed page is https://www.nationalbanken.dk/en/rss-feeds and the page people see is https://www.nationalbanken.dk/en/search-our-knowledge-archive?type=Working+Paper. The knowledge archive search runs on api.addsearch.com, whose robots.txt blocks bots, so it is not used."
+
+[[source]]
+name = "Reserve Bank of India"
+series = "RBI Working Paper Series"
+url = "https://www.rbi.org.in/Scripts/OccasionalPublications.aspx?head=Working%20Papers"
+scope = "#pnlMain"
+links = 'PublicationsView\.aspx\?id=\d+'
+note = "The page lists only the current year's papers (one so far in 2026), newest first; other years need a form post, which the watcher cannot do, so early in a year the list may be short or empty. robots.txt on rbi.org.in answers 418 (a blocked page), which the watcher reads as 'no rules'."
+allow_empty = true
+
+[[source]]
+name = "Bank of Israel"
+series = "Discussion Papers"
+url = "https://www.boi.org.il/en/economic-roles/research-and-publications/all-research/discussion-paper-series-research-department/"
+enabled = false
+reason = "boi.org.il answers scripts with a Radware browser-check page instead of the list."
+note = "This is the Research Department's Discussion Paper Series list on the bank's own site (active in 2026). Every boi.org.il page except robots.txt returned the Radware 'Verifying your browser' page. The RePEc listing is stale. No email-alert signup page could be confirmed (the site footer has a 'Sign-up for updates' link)."
+
+[[source]]
+name = "Bank of Korea"
+series = "BOK Working Papers"
+# The list.do page fills its list in with JavaScript, from the HTML fragment listCont.do. That fragment answers a plain
+# GET; depth2=600354 is the "BOK Working Paper" category (the unfiltered list also has Economic Analysis and
+# In-Depth Analysis), pageUnit=20 asks for 20 per page, newest first.
+url = "https://www.bok.or.kr/imerEng/singl/rsrchrDataEng/listCont.do?pageIndex=1&targetDepth=2&menuNo=600354&syncMenuChekKey=0&searchCnd=1&searchKwd=&depth2=600354&depth=600093&pageUnit=20"
+links = '/view\.do\?nttId=\d+'
+note = "The visible page is https://www.bok.or.kr/imerEng/singl/rsrchrDataEng/list.do?menuNo=600354. robots.txt disallows / but allows /imerEng/."
+
+[[source]]
+name = "Central Bank of Chile"
+series = "Working Papers (Documentos de Trabajo)"
+url = "https://www.bcentral.cl/web/banco-central/nuevo-buscador?category=35828&categorias=35741&temas=35828&type=com.liferay.journal.model.JournalArticle&sort=sortableDate_sortable-"
+enabled = false
+reason = "The bank's working paper list is only on its search pages, which its robots.txt tells bots not to read."
+alert = "https://www.bcentral.cl/suscripcion"
+note = "robots.txt on bcentral.cl disallows /*nuevo-buscador*, /*buscador* and /*search* (which also matches any /research path), and /publicaciones redirects to the search page, so no allowed list was found. Individual papers are at https://www.bcentral.cl/web/banco-central/contenido/-/detalle/publicaciones/investigacion-economica/documento-de-trabajo-<number> (No. 1098 is the latest seen), but nothing allowed lists them. The alert link is the site's own Suscripcion page."
+
+[[source]]
+name = "HKIMR (Hong Kong Monetary Authority)"
+series = "HKIMR Working Papers"
+url = "https://www.aof.org.hk/research/HKIMR/publications-and-research/working-papers"
+enabled = false
+reason = "The papers are on aof.org.hk (Hong Kong Academy of Finance), whose robots.txt tells every bot except Google's to stay out."
+note = "The HKMA overview page only links to this AoF page. Its list is shown by year (2010 to 2026). Separately, Python on a Windows machine could not verify aof.org.hk's certificate (issued under the Hongkong Post root); curl with Mozilla's CA bundle could."
+
+[[source]]
+name = "Reserve Bank of New Zealand"
+series = "Discussion Papers"
+url = "https://www.rbnz.govt.nz/research-and-publications/research/our-research-and-analysis/discussion-papers"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403)."
+alert = "https://www.rbnz.govt.nz/email-updates"
+
+[[source]]
+name = "State Bank of Pakistan"
+series = "SBP Working Papers"
+url = "https://www.sbp.org.pk/our-operations/publications/working-papers/361/working-papers"
+links = '^https://www\.sbp\.org\.pk/assets/document/.+\.pdf'
+
+# ---- Government agencies ---------------------------------------------------------------------------------
+
+[[source]]
+name = "Energy Information Administration"
+series = "EIA Working Papers"
+url = "https://www.eia.gov/workingpapers/"
+links = '^https://www\.eia\.gov/workingpapers/pdf/'
+
+[[source]]
+name = "FDIC"
+series = "Center for Financial Research Working Papers"
+url = "https://www.fdic.gov/analysis/cfr/working-papers/"
+links = 'fdic\.gov/(analysis/cfr|center-financial-research)/working-papers/.+'
+
+[[source]]
+name = "Federal Trade Commission"
+series = "Bureau of Economics Working Papers"
+url = "https://www.ftc.gov/policy/reports/policy-reports/economics-research/working-papers"
+links = '^https://www\.ftc\.gov/reports/'
+
+[[source]]
+name = "HUD (PD&R)"
+series = "HUD User research and Cityscape"
+url = "https://www.huduser.gov/portal/whatsnew/whatsnew.html"
+# What's New mixes research reports with housing market reports, data and announcements; the Research & Reports rows
+# are td.RR. Keep the research reports (/portal/publications/) and Cityscape issues, not PD&R Edge or case studies.
+item = "td.RR"
+links = '/portal/(publications|periodicals/cityscape)/'
+
+[[source]]
+name = "OCC"
+series = "Economics Working Papers"
+url = "https://www.occ.gov/publications-and-resources/publications/economics/index-economics-publications.html"
+links = '/economics/working-papers-[^/]+/[^/]+\.html'
+skip = '/working-papers-archived/'
+
+[[source]]
+name = "Securities and Exchange Commission"
+series = "DERA Working Papers"
+url = "https://www.sec.gov/about/divisions-offices/division-economic-risk-analysis/working-papers"
+scope = "table.views-table"
+links = '/division-economic-risk-analysis/staff-papers-analyses/'
+alert = "https://www.sec.gov/about/divisions-offices/division-economic-risk-analysis/working-papers"
+note = "Newest first, 20 per page. sec.gov asks automated tools to declare contact details in their user agent; this page answered the watcher normally when tested, but if it starts failing with HTTP 403, set enabled = false and keep the alert link (the listing page carries an email-updates signup box)."
+
+[[source]]
+name = "Social Security Administration"
+series = "ORES Working Papers"
+# The human page (https://www.ssa.gov/policy/research.html?type=ORES%20Working%20Paper) fills its list with JavaScript from
+# this JSON file, which holds every SSA research publication; the links filter keeps the working papers.
+kind = "json"
+url = "https://www.ssa.gov/policy/json/research.json"
+json_title = "Title"
+json_link = "https://www.ssa.gov/policy/{Url}"
+links = '/policy/docs/workingpapers/wp\d+\.(html|pdf)$'
+
+[[source]]
+name = "U.S. Treasury"
+series = "Office of Tax Analysis Working Papers"
+url = "https://home.treasury.gov/policy-issues/tax-policy/office-of-tax-analysis"
+links = '^https://home\.treasury\.gov/system/files/131/'
+
+[[source]]
+name = "Bureau of Economic Analysis"
+series = "BEA Working Papers"
+url = "https://www.bea.gov/research/papers"
+links = '^https://www\.bea\.gov/research/papers/\d{4}/'
+
+[[source]]
+name = "Bureau of Labor Statistics"
+series = "BLS Working Papers"
+# BLS's working papers are its "Economic Working Paper" series (WP-nnn, files ecYYnnnn); the page also lists statistical
+# survey papers and NLS discussion papers, which the links filter leaves out.
+url = "https://www.bls.gov/osmr/research-papers/"
+item = "table.sortable_datatable tbody tr"
+title = "td:nth-child(2)"
+links = '/osmr/research-papers/\d{4}/ec\d+\.htm$'
+note = "The whole archive is one table (about 600 papers, in file order; the page's script re-sorts it newest first), so the first check records them all. bls.gov sometimes refuses scripts; if it starts failing with HTTP 403, turn the source off."
+
+[[source]]
+name = "Statistics Canada"
+series = "Analytical Studies Branch Research Paper Series"
+url = "https://www150.statcan.gc.ca/n1/en/catalogue/11F0019M"
+links = '^https://www150\.statcan\.gc\.ca/n1/pub/11f0019m/'
+
+# ---- Think tanks & institutes ----------------------------------------------------------------------------
+
+[[source]]
+name = "Brookings Institution"
+series = "Brookings Papers on Economic Activity"
+url = "https://www.brookings.edu/projects/brookings-papers-on-economic-activity/"
+links = '^https://www\.brookings\.edu/(articles/|events/bpea-|collection/brookings-papers-on-economic-activity-)'
+note = "New conference pages and editions show up twice a year; the papers list itself is built by JavaScript."
+
+[[source]]
+name = "Lincoln Institute of Land Policy"
+series = "Working Papers"
+url = "https://www.lincolninst.edu/publications/working-papers/"
+links = 'lincolninst\.edu/publications?/working-papers/.+'
+
+[[source]]
+name = "Urban-Brookings Tax Policy Center"
+series = "TPC research reports"
+url = "https://taxpolicycenter.org/research"
+enabled = false
+reason = "the site's robots.txt asks bots to stay out of its research list, and the home page shows only one featured brief"
+alert = "https://taxpolicycenter.org/newsletters"
+
+[[source]]
+name = "Washington Center for Equitable Growth"
+series = "Working Papers"
+url = "https://equitablegrowth.org/working-papers/"
+links = '^https://equitablegrowth\.org/working-papers/.+'
+
+[[source]]
+name = "3ie"
+series = "3ie Working Papers"
+url = "https://www.3ieimpact.org/evidence-hub/publications/working-papers"
+links = '^https://www\.3ieimpact\.org/evidence-hub/publications/working-papers/.+'
+
+[[source]]
+name = "American Enterprise Institute"
+series = "AEI Economics Working Papers"
+# /research-products/working-paper/ (singular) now redirects to a single paper; the list is at the plural address.
+# strip_query drops the ?preview=true links that the list sometimes carries.
+url = "https://www.aei.org/research-products/working-papers/"
+scope = "ul.wp-block-list"
+links = '/research-products/working-paper/[^/]+/$'
+strip_query = true
+
+[[source]]
+name = "ESRI (Japan Cabinet Office)"
+series = "ESRI Discussion Papers"
+url = "https://www.esri.cao.go.jp/en/esri/archive/e_dis/e_discus-e.html"
+links = '/e_dis/\d{4}/e_dis\d+-e\.html'
+note = "The page shows the five newest papers (No. 407 at the time of writing), then links to one page per year. The older papers are at /e_dis/<year>/index.html."
+
+[[source]]
+name = "Fedesarrollo"
+series = "Documentos de Trabajo"
+url = "https://www.fedesarrollo.org.co/p/publicaciones/documentos-de-trabajo"
+scope = ".anaquel"
+item = ".libros a"
+title = ".titulo"
+links = 'hdl\.handle\.net/11445/\d+'
+note = "The page lists 15 papers, newest first. The newest is from February 2020, so this series looks dormant. The unrelated 'latest publication' box on the page is outside .anaquel."
+
+[[source]]
+name = "Hoover Institution"
+series = "Economics Working Papers"
+url = "https://www.hoover.org/publications/economics-working-papers"
+enabled = false
+reason = "the list is built by JavaScript (a search widget), and no feed or plain-HTML list of the series was found"
+alert = "https://www.hoover.org/about/connect-with-us/newsletter-subscriptions"
+note = "The newsletter page has a general publication alert and an economics briefing, but nothing specific to this working-paper series."
+
+[[source]]
+name = "IPEA"
+series = "Textos para Discussão"
+url = "https://www.ipea.gov.br/portal/publicacoes"
+enabled = false
+reason = "the site does not answer: connections to www.ipea.gov.br and to its repository (repositorio.ipea.gov.br) time out"
+note = "The series also lives in the repository (a DSpace 7 site, newest items first, with a REST API under /server/api). Retry when the servers answer, find the Textos para Discussão collection there and point a recipe at it."
+
+[[source]]
+name = "Mercatus Center"
+series = "Mercatus Working Papers"
+url = "https://www.mercatus.org/research"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403)."
+alert = "https://cloud.marketing.mercatus.org/LeadForm"
+
+[[source]]
+name = "ODI"
+series = "ODI Working Papers"
+url = "https://odi.org/en/publications/"
+enabled = false
+reason = "the site's bot check refuses the watcher (HTTP 403 on the publications list)"
+alert = "https://mailchi.mp/49cfd4725582/odi-global-subscribe"
+
+[[source]]
+name = "OFCE (Sciences Po)"
+series = "OFCE Working Papers"
+url = "https://www.ofce.fr/publications/working_papers.html"
+links = '^https://www\.ofce\.fr/pdf/dtravail/'
+
+[[source]]
+name = "The Productivity Institute"
+series = "TPI Working Papers"
+# The "All Research" page fills its list with JavaScript; this archive page for the "TPI Working papers" type is plain HTML.
+url = "https://www.productivity.ac.uk/research/type/working-papers/"
+item = "div.research-panel"
+title = "h3"
+links = '/research/[^/]+/$'
+skip = '/research/(type|theme|topic)/'
+
+# ---- Universities & research centers ---------------------------------------------------------------------
+
+[[source]]
+name = "CEGA (Berkeley)"
+series = "CEGA Working Papers"
+# escholarship.org itself is now behind a bot check (its rss feed answers with a "verifying your web request" page), so
+# this reads CEGA's own Reports & Publications list instead. The list mixes working papers (which link to
+# escholarship.org/uc/item/...) with briefs and reports; the links filter keeps the working papers. Newest first, 50 per page.
+url = "https://cega.berkeley.edu/our-resources/documents/"
+item = "article.c-list-item"
+title = ".c-list-item__title a"
+links = 'escholarship\.org/uc/item/'
+min_title = 8
+
+[[source]]
+name = "CReAM (UCL)"
+series = "CReAM Discussion Papers"
+url = "https://www.rfberlin.com/feed/?post_type=network-paper"
+kind = "feed"
+min_title = 6
+note = "The series is now published jointly with the Rockwool Foundation Berlin (RFBerlin), and this is the WordPress feed behind rfberlin.com/discussion-papers/ (RFBerlin and CReAM papers plus Handbook of Labor Economics chapters; the HTML list shows only 6 per page, the feed 10). CReAM's own list (cream-migration.org/discussion-papers.htm) cannot be used: every Download link points at the same folder (the PDF name sits in a data-location attribute) and its newest paper is from July 2025."
+
+[[source]]
+name = "Energy Institute at Haas (Berkeley)"
+series = "Energy Institute Working Papers"
+# One paragraph per paper: authors in bold, then the title as a link to the PDF (or to eScholarship), then an "Abstract"
+# link. Most PDFs sit under /wp-content/uploads/archive/ but the newest do not, and the newest papers link to eScholarship,
+# so the title links look likely to change as papers age. Each paper is therefore identified by its abstract page (a
+# steadier address), and the title is the first link in the paragraph.
+url = "https://haas.berkeley.edu/energy-institute/research/working-papers/"
+item = "article.page-content p"
+title = "a"
+links = '/energy-institute/research/abstracts/'
+min_title = 10
+
+[[source]]
+name = "EPIC (Chicago)"
+series = "EPIC Working Papers"
+url = "https://epic.uchicago.edu/working-papers/feed/"
+kind = "feed"
+min_title = 6
+note = "EPIC's Working Paper Feed. The archive page epic.uchicago.edu/working-papers/ has no list in its HTML, and epic.uchicago.edu/publications/ shows the same ten items as HTML. The feed also carries papers EPIC files as journal articles."
+
+[[source]]
+name = "International Inequalities Institute (LSE)"
+series = "III Working Papers"
+url = "https://www.lse.ac.uk/International-Inequalities/Publications/Working-Papers"
+item = ".accordion-item"
+links = '(researchonline|eprints)\.lse\.ac\.uk/(id/eprint/)?\d+/?$'
+min_title = 8
+note = "One accordion block per paper. The link is the paper's LSE Research Online record (newer papers on researchonline.lse.ac.uk, older ones on eprints.lse.ac.uk); the Download paper PDFs are skipped because the record page is the one link every paper has."
+
+[[source]]
+name = "Joint Center for Housing Studies (Harvard)"
+series = "JCHS Working Papers"
+url = "https://www.jchs.harvard.edu/research"
+enabled = false
+reason = "there is no single list of working papers; each research-area page lists only its own"
+note = "The old list (research-areas/working-papers) is gone. Working papers still live at /research-areas/working-papers/<name>, and each of the ten research-area pages can be filtered to them, for example /research-areas/housing-markets?publication_type%5B53%5D=53. Those pages overlap very little, so one page would catch only a small share of new papers. The JCHS mailing list (signup form at the foot of jchs.harvard.edu) covers news, blog and events, not working papers as such."
+
+[[source]]
+name = "OPHI (Oxford)"
+series = "OPHI Working Papers"
+url = "https://ophi.org.uk/ophi-publications"
+links = '^https://ophi\.org\.uk/publications/'
+item = 'div.views-row'
+title = 'h3'
+
+[[source]]
+name = "Centre for Health Economics (York)"
+series = "CHE Research Papers"
+url = "https://www.york.ac.uk/che/outputs/research-papers/"
+scope = "main"
+item = "li"
+links = '/media/che/.*\.pdf$'
+skip = '(?i)(lay[ %20_-]*summary|appendix|corrigendum|supplement|exec[a-z_ %20-]*summary|spreadsheet)'
+note = "One list item per research paper, linking to its PDF. The title and authors are loose text after the link, so the title is cut from the item text. Lay summaries, appendices and corrigenda are skipped."
+item_text = true
+title_match = '\(PDF[^)]*\)\W*(.+?)(?:\s+(?:Online Appendix|Citation formats|Lay summary)\b.*)?$'
+
+[[source]]
+name = "CERGE-EI (Prague)"
+series = "CERGE-EI Working Papers"
+url = "https://www.cerge-ei.cz/working-papers/"
+note = "Each paper is one paragraph, '824. Authors. Date. “Title” (Full Text)', so the title is taken from the paragraph text. RePEc (cer:papers) lags a few papers behind."
+item = 'p'
+links = '/pdf/wp/wp\d+\.pdf$'
+item_text = true
+title_match = '“(.+?)”'
+
+[[source]]
+name = "Collegio Carlo Alberto (Turin)"
+series = "Carlo Alberto Notebooks"
+url = "https://www.carloalberto.org/research/working-papers/"
+links = '^https://www\.carloalberto\.org/wp-content/uploads/'
+
+[[source]]
+name = "EIEF (Rome)"
+series = "EIEF Working Papers"
+url = "https://www.eief.it/eief/index.php/research/working-papers"
+links = '^https://www\.eief\.it/eief/images/'
+
+[[source]]
+name = "GGDC (Groningen)"
+series = "GGDC Research Memoranda"
+url = "https://www.rug.nl/ggdc/iframe/memoranda"
+enabled = false
+reason = "the list is on an embedded page (rug.nl/ggdc/html_publications/memorandum.htm) that answers the watcher with HTTP 406"
+note = "The Research Memoranda page only holds an iframe. Its list page answers HTTP 406, and the university research portal that also lists the memoranda (research.rug.nl) shows a Cloudflare check, so neither is used. The PDFs themselves are at rug.nl/ggdc/html_publications/memorandum/gdNNN.pdf. RePEc stops at GD-176."
+
+[[source]]
+name = "IGIER (Bocconi)"
+series = "IGIER Working Papers"
+url = "https://igier.unibocconi.eu/working-papers"
+links = '^https://igier\.unibocconi\.eu/publications/working-papers/.+'
+
+[[source]]
+name = "Institute for Policy Research (Northwestern)"
+series = "IPR Working Papers"
+url = "https://www.ipr.northwestern.edu/our-work/working-papers/"
+links = '^https://www\.ipr\.northwestern\.edu/our-work/working-papers/\d{4}/'
+
+[[source]]
+name = "Institute for Research on Poverty (Wisconsin)"
+series = "IRP Discussion Papers"
+url = "https://www.irp.wisc.edu/resource_type/discussion-paper/"
+note = "The discussion paper archive, newest paper first. The series has been quiet (newest paper 2019, last post 2022). Not the RSS feed: it returns a different mix of old items on each request, which would look like new papers."
+links = '^https://www\.irp\.wisc\.edu/resource/[^/]+/?$'
+
+[[source]]
+name = "Michigan Retirement and Disability Research Center"
+series = "MRDRC Working Papers"
+url = "https://mrdrc.isr.umich.edu/"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403)."
+
+[[source]]
+name = "Oxford Department of Economics"
+series = "Economics Discussion Paper Series"
+url = "https://www.economics.ox.ac.uk/research/working-papers"
+enabled = false
+reason = "the list is built by JavaScript"
+note = "The page mounts a Symplectic widget that loads the list with a POST request to symplectic.embed.it.ox.ac.uk/api/publications (a plain GET answers 405), and the widget's 'show more' page is the same widget. RePEc (ideas.repec.org/s/oxf/wpaper.html) lists the series up to no. 1083, so it should already reach NEP."
+
+[[source]]
+name = "Oxford University Centre for Business Taxation"
+series = "CBT Working Papers"
+url = "https://oxfordtax.sbs.ox.ac.uk/working-papers"
+links = '^https://oxfordtax\.sbs\.ox\.ac\.uk/wp\d'
+
+[[source]]
+name = "Pension Research Council (Wharton)"
+series = "PRC Working Papers"
+url = "https://pensionresearchcouncil.wharton.upenn.edu/papers/"
+scope = "ul.bullet-list"
+item = "li"
+links = '(papers\.ssrn\.com/|ssrn\.com/abstract|pensionresearchcouncil\.wharton\.upenn\.edu/wp-content/uploads/\d{4}/\d{2}/[^/]+\.pdf$)'
+min_title = 8
+note = "The page lists papers by year, with 2026 first; inside a year the oldest paper comes first, so new papers appear at the end of the current year's list. New papers link either to SSRN or to a PDF under /wp-content/uploads/YYYY/MM/. The 356 old links to repository.upenn.edu are left out on purpose."
+
+[[source]]
+name = "PUC Chile"
+series = "Documentos de Trabajo (Instituto de Economía)"
+url = "https://economia.uc.cl/tipo_publicacion/documento-de-trabajo/"
+item = ".uc-card"
+title = "h2"
+links = '/biblioteca/'
+min_title = 8
+note = "WordPress archive of the 'Documento de trabajo' publication type, newest first, ten per page. The /investigacion/ page builds the same list with JavaScript."
+
+[[source]]
+name = "SALDRU (University of Cape Town)"
+series = "SALDRU Working Papers"
+url = "https://opensaldru.uct.ac.za/handle/11090/11/browse?type=dateissued&order=DESC&rpp=40"
+scope = "ul.ds-artifact-list"
+links = '/handle/11090/\d+$'
+min_title = 8
+note = "The OpenSALDRU repository (DSpace), working papers browsed by date issued, newest first, 40 per page. Use the host without www: www.opensaldru.uct.ac.za has a certificate for a different name."
+
+[[source]]
+name = "SIEPR (Stanford)"
+series = "SIEPR Working Papers"
+url = "https://siepr.stanford.edu/research/publications/working-papers"
+links = '^https://siepr\.stanford\.edu/publications/working-paper/.+'
+
+[[source]]
+name = "Stanford GSB"
+series = "GSB Working Papers"
+url = "https://www.gsb.stanford.edu/faculty-research/working-papers"
+links = '^https://www\.gsb\.stanford\.edu/faculty-research/working-papers/.+'
+
+[[source]]
+name = "STICERD (LSE)"
+series = "STICERD Discussion Papers"
+url = "https://sticerd.lse.ac.uk/_new/publications/econometrics/"
+item = "div.publications-summary"
+title = "h5"
+links = '/publications/abstract/\?index=\d+'
+min_title = 8
+note = "The Econometrics series (EM) is the only STICERD discussion paper series still publishing. The others stopped long ago: Theoretical Economics 2015 (/_new/publications/theoretical-economics/), Public Economics 2018, Economics of Industry 2020, Development 2007, Political Economy and Public Policy 2008, EEE 2021, and EOPP has no list page on the new site. The /_new/publications/ page mixes in CASE reports, journal articles and blog posts, so it is not used. The query string is the paper's identity, so strip_query must stay off."
+
+[[source]]
+name = "Universidad del Pacífico"
+series = "Documentos de Discusión (CIUP)"
+url = "https://ciup.up.edu.pe/publicaciones/"
+enabled = false
+reason = "the list is built by JavaScript, and the repository copy of the series shows a bot check"
+note = "ciup.up.edu.pe/publicaciones/ shows the 20 newest items of every type, filters and pages by a POST request (a GET query string is ignored), and does not seem to list the discussion papers at all. The series is in the university repository (repositorio.up.edu.pe, handles 11354/...), which answers the watcher with an Anubis bot check, feeds included."
+
+[[source]]
+name = "Uppsala University"
+series = "Department of Economics Working Papers"
+url = "https://www.uu.se/en/department/economics/research"
+enabled = false
+reason = "the series is listed only in DiVA, which shows a bot check, and DiVA's robots.txt keeps bots off its search result pages"
+note = "The department site has no working-paper list (its Scientific publications page holds peer-reviewed journal articles only). DiVA (uu.diva-portal.org) answers the watcher with an Anubis bot check, its robots.txt disallows /smash/resultList.jsf, and urn.kb.se/resolve is disallowed too. EconStor, which also holds the series, shows the same bot check. RePEc stops at 2020:6."
+
+# ---- Conferences -----------------------------------------------------------------------------------------
+
+[[source]]
+name = "AEA / ASSA Annual Meeting"
+series = "Session papers (January)"
+# The program (sessions, and papers inside each session) goes up once a year, in the autumn, on a new address
+# (/conference/2027/preliminary, later /conference/2027/program). The landing page always links to the current one, so a
+# new link here means the next meeting's program is out. Individual papers are not watched: a program has hundreds of
+# sessions behind separate pages.
+url = "https://www.aeaweb.org/conference/"
+links = '/conference/\d{4}/(preliminary|program)/?$'
+min_title = 12
+note = "Yearly signal only: one new entry when the next ASSA program is posted."
+
+[[source]]
+name = "Jackson Hole Economic Policy Symposium"
+series = "Symposium papers (August)"
+url = "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+links = '^https://www\.kansascityfed\.org/research/jackson-hole-economic-symposium/\d{4}/?$'
+
+[[source]]
+name = "NBER Summer Institute"
+series = "Workshop papers (July)"
+url = "https://www.nber.org/conferences/summer-institute"
+links = '^https://www\.nber\.org/conferences/summer-institute-\d{4}'
+
+[[source]]
+name = "Society for Economic Dynamics"
+series = "SED Meeting Papers"
+url = "https://www.economicdynamics.org/"
+enabled = false
+reason = "SED's own site lists no meeting papers or program (each meeting page is a short notice with no links to papers), and the RePEc list stopped in 2024"
+note = "The 2027 meeting (Lisbon, July 1-3) is announced on the home page with the call for papers still to come. If SED starts posting a program or paper list, point this recipe at it."
