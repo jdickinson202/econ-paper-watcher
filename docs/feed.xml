@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Working papers NEP misses</title>
-  <subtitle>New papers from economics working-paper series that have no RSS feed and do not reach NEP</subtitle>
+  <title>New economics working papers: econ-paper-watcher</title>
+  <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-05T14:44:05Z</updated>
+  <updated>2026-11-06T14:22:11Z</updated>
+  <entry>
+    <title>EPIC (Chicago): The Economics of Transitioning Away from Fossil Fuels</title>
+    <link href="https://epic.uchicago.edu/working-papers/the-economics-of-transitioning-away-from-fossil-fuels/"/>
+    <id>https://epic.uchicago.edu/working-papers/the-economics-of-transitioning-away-from-fossil-fuels/</id>
+    <updated>2026-11-06T14:22:11Z</updated>
+    <author><name>EPIC (Chicago)</name></author>
+    <summary>EPIC Working Papers. First seen 2026-11-06.</summary>
+  </entry>
   <entry>
     <title>International Growth Centre: Moving demand: Spatial load allocation for electric motorcycle taxi drivers in Kigali</title>
     <link href="https://www.theigc.org/publications/moving-demand-spatial-load-allocation-electric-motorcycle-taxi-drivers-kigali"/>
