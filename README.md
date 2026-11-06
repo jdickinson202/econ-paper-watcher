@@ -43,7 +43,7 @@ feed.
 | `rewrite` | List of `[pattern, replacement]` pairs (regular expressions) applied to each link before anything else, for sites whose data holds links in an odd form. |
 | `max_new` | Overrides the 25-link threshold for a single bulk entry. |
 | `allow_empty` | `true` for a page that can legitimately list nothing, such as one that shows only the current year's papers. Otherwise an empty result counts as a failure. |
-| `kind` | `"html"` (default), `"feed"` for an RSS or Atom feed, or `"json"` with `json_items` (dotted path to the list), `json_title` (title field, such as `"title"` or `"title.rendered"`) and `json_link` (link field, or a template such as `"https://example.org/wp?id={id}"`). |
+| `kind` | `"html"` (default), `"feed"` for an RSS or Atom feed, `"json"` with `json_items` (dotted path to the list), `json_title` (title field, such as `"title"` or `"title.rendered"`) and `json_link` (link field, or a template such as `"https://example.org/wp?id={id}"`), or `"regex"` with `pattern`, a regular expression with groups named `title` and `link`, for a list kept as data in a script on the page. |
 | `enabled = false` | A source the watcher can't read. Give a `reason`, and optionally an `alert` link to the publisher's email alerts. Both appear on the status page. |
 | `note` | Free text for whoever maintains the recipe. |
 

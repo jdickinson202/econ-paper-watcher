@@ -295,6 +295,23 @@ def extract_json(src, base, body):
     return found
 
 
+def extract_regex(src, base, body, charset):
+    """kind = "regex": title and link pairs in the page's raw text, for a list kept as data in a script on the page.
+    pattern is a regular expression with groups named title and link."""
+    try:
+        text = body.decode(charset or "utf-8", "replace")
+    except LookupError:
+        text = body.decode("utf-8", "replace")
+    found = {}
+    for m in re.finditer(src["pattern"], text):
+        title = unescape(m["title"])
+        if src.get("title_match"):
+            kept = re.search(src["title_match"], title)
+            title = kept.group(1).strip() if kept else title
+        keep(src, resolve(src, base, unescape(m["link"])), title, src.get("min_title", 10), found)
+    return found
+
+
 def check(src):
     url = page_url(src)
     if not robots_allow(url):
@@ -305,6 +322,8 @@ def check(src):
         return extract_feed(src, final, body)
     if kind == "json":
         return extract_json(src, final, body)
+    if kind == "regex":
+        return extract_regex(src, final, body, charset)
     return extract(src, final, body, charset)
 
 
