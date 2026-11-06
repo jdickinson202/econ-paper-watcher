@@ -1,4 +1,4 @@
-"""Watch working-paper listing pages that have no RSS feed and publish what is new as one Atom feed.
+"""Watch working-paper listing pages and publish what is new as one Atom feed.
 
   python watch.py                check every enabled source, update state/seen.json, write docs/feed.xml and docs/index.html
   python watch.py --check NAME   show what the recipe finds for each source whose name contains NAME ("all" for every
@@ -37,7 +37,7 @@ STATUS = os.path.join(ROOT, "docs", "index.html")
 BOT = "econ-paper-watcher"
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 UA = f"Mozilla/5.0 (compatible; {BOT}/1.0; +https://github.com/{REPO})" if REPO else f"Mozilla/5.0 (compatible; {BOT}/1.0)"
-TITLE = "Working papers NEP misses"
+TITLE = "New economics working papers: econ-paper-watcher"
 
 FEED_ITEMS = 300         # entries kept in the feed
 SEEN_PER_SOURCE = 2000   # links remembered per source
@@ -115,7 +115,11 @@ def robots_allow(url):
         rp = urllib.robotparser.RobotFileParser()
         try:
             _, body, charset = fetch(root + "/robots.txt", timeout=20)
-            rp.parse(body.decode(charset or "utf-8", "replace").splitlines())
+            try:
+                text = body.decode(charset or "utf-8", "replace")
+            except LookupError:  # a charset Python doesn't know, such as the "iso-8852" banque-france.fr declares
+                text = body.decode("utf-8", "replace")
+            rp.parse(text.splitlines())
         except urllib.error.HTTPError as e:
             # RFC 9309: a 4xx answer means there are no rules; a 5xx (or 429) means the site can't say right now
             if e.code >= 500 or e.code == 429:
@@ -335,7 +339,7 @@ def attempt(src):
 def run(sources, state, stamp):
     """Check every enabled source once, recording new papers and failures in state."""
     new_items = []
-    # a few sources at a time; each site still gets just its robots.txt and one page request per run
+    # a few sources at a time; each site still gets just its robots.txt and one page request per series per run
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(attempt, [s for s in sources if s["enabled"]]))
     for src, found, e in results:
@@ -410,7 +414,7 @@ def write_feed(state, stamp):
     self_link = f"  <link rel=\"self\" href=\"{escape(feed_url())}\"/>\n" if feed_url() else ""
     xml = ('<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom">\n'
            f"  <title>{TITLE}</title>\n"
-           "  <subtitle>New papers from economics working-paper series that have no RSS feed and do not reach NEP"
+           "  <subtitle>New papers from economics working-paper series that are hard to follow any other way"
            "</subtitle>\n"
            f"  <id>urn:{BOT}:{escape(REPO or 'local')}</id>\n{self_link}"
            f"  <updated>{stamp}</updated>\n" + "\n".join(entries) + "\n</feed>\n")

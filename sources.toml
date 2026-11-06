@@ -49,6 +49,17 @@ enabled = false
 reason = "LACEA's website no longer has a working paper list: the old series pages are gone and the member site is built by JavaScript."
 note = "Checked: lacea.org has no working-paper page in its sitemaps; vox.lacea.org (old home of the PDFs) is an empty server; lacer.lacea.org does not answer; app.lacea.org is a JavaScript app. RePEc (col:000518) stopped at 2022."
 
+[[source]]
+name = "IZA"
+series = "IZA Discussion Papers"
+# Plain HTML, newest number first. limit=50 is one of the page's own sizes (20, 50, 100); the default 20 could let a large
+# batch push papers off the page between two checks, and max_new keeps a batch as separate entries.
+url = "https://www.iza.org/publications/dp?limit=50&page=1"
+links = '/publications/dp/\d+/[^/?#]+$'
+max_new = 60
+min_title = 5
+note = "The page a person sees is https://www.iza.org/publications/dp. Each paper's page shows its JEL codes. min_title is low because real titles can be short (DP 19033 is 'Meetings')."
+
 # ---- International organizations -------------------------------------------------------------------------
 
 [[source]]
@@ -131,6 +142,33 @@ series = "ILO Working Papers"
 url = "https://www.ilo.org/research-and-publications/working-papers"
 links = '^https://www\.ilo\.org/publications/'
 
+[[source]]
+name = "Inter-American Development Bank"
+series = "IDB Working Papers"
+url = "https://publications.iadb.org/en"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403, a Cloudflare check), and its robots.txt keeps bots off the filtered lists that would pick out working papers."
+note = "publications.iadb.org/en answered 403 'Just a moment'. robots.txt disallows */en?* and */publications?*, which rules out /en?docType=WORKING+PAPERS."
+
+[[source]]
+name = "IFPRI"
+series = "IFPRI Discussion Papers"
+# IFPRI files the series in CGSpace, the CGIAR repository (DSpace), and its own page links each paper to its record there.
+# The repository's syndication feed (OpenSearch, Atom) comes newest first and is plain XML.
+url = "https://cgspace.cgiar.org/server/opensearch/search?format=atom&scope=d4fab241-9ec2-44ea-9e7d-b88b7debfb1e&query=*&rpp=40"
+kind = "feed"
+links = 'hdl\.handle\.net/10568/\d+$'
+note = "Collection d4fab241-9ec2-44ea-9e7d-b88b7debfb1e (IFPRI Discussion Papers); the page people see is https://www.ifpri.org/publications/discussion-papers/. ifpri.org answered the first requests but then showed an Imperva bot check, so it is not used."
+
+[[source]]
+name = "European Stability Mechanism"
+series = "ESM Working Papers"
+url = "https://www.esm.europa.eu/publications?publication_type%5B1223%5D=1223"
+item = ".card-basic"
+title = ".card-basic__title"
+links = '/publications/[^/?#]+$'
+note = "The publications page filtered to Working papers (type 1223). It shows the four newest, with a 'Show more posts' link to the next page."
+
 # ---- Central banks ---------------------------------------------------------------------------------------
 
 [[source]]
@@ -201,6 +239,121 @@ name = "State Bank of Pakistan"
 series = "SBP Working Papers"
 url = "https://www.sbp.org.pk/our-operations/publications/working-papers/361/working-papers"
 links = '^https://www\.sbp\.org\.pk/assets/document/.+\.pdf'
+
+[[source]]
+name = "Banque de France"
+series = "Working Papers"
+url = "https://www.banque-france.fr/en/publications-and-research/our-main-publications/working-papers"
+scope = ".view-espace2-liste-des-publications-et-statistique"
+item = "a.card-vertical"
+title = ".card-title"
+links = '/publications-and-statistics/publications/[^/?#]+$'
+note = "12 per page, newest first. The site sends robots.txt with the charset 'iso-8852', which Python doesn't know, so robots_allow in watch.py falls back to UTF-8 for it."
+
+[[source]]
+name = "De Nederlandsche Bank"
+series = "DNB Working Papers"
+url = "https://www.dnb.nl/en/rss/16455/4614/Working%20Papers"
+kind = "feed"
+links = '/research-publications/working-paper-\d{4}/'
+note = "One of the bank's own feeds, listed at https://www.dnb.nl/en/rss/. It carries the whole series (about 600 papers, newest first), so the first check records them all. The publications page itself is built by JavaScript."
+
+[[source]]
+name = "National Bank of Belgium"
+series = "NBB Working Papers"
+url = "https://www.nbb.be/en/publications-research/publications/economic-and-financial-publications/working-papers"
+item = "a.node-publication-teaser"
+title = ".node-publication-teaser__label"
+links = '/publications-research/all-publications/[^/?#]+$'
+note = "The page shows only the three newest papers. Nos. 502 to 504 went up together on 8 Oct 2026, so a batch of more than three would slip past. The full list (all-publications?type[0]=1985) is off limits because robots.txt disallows /*?, and publication_rss.xml mixes every publication type with nothing in the links to tell them apart."
+
+[[source]]
+name = "Oesterreichische Nationalbank"
+series = "OeNB Working Papers"
+# The Working Paper page fills its list in with JavaScript from this JSON file, which answers a plain GET. pubSeries is the
+# page's own "Working Paper" filter, and each paper appears twice (web page and PDF); the links filter keeps the web page.
+url = "https://www.oenb.at/en/daten-und-forschung/publikationen/publikationsreihen/working-paper/mainArea/genericList.json?currentPage=0&sortType=dateDesc&pubSeries=551641bb-ccd5-4422-8ac2-7907e85439a5"
+kind = "json"
+json_items = "result"
+json_title = "title"
+json_link = "link"
+links = '/publikationsreihen/working-paper/\d{4}/working-paper-\d+\.html$'
+note = "The page people see is https://www.oenb.at/en/daten-und-forschung/publikationen/publikationsreihen/working-paper.html. Ten rows a page, so about five papers. robots.txt answers 404."
+
+[[source]]
+name = "Bank of Japan"
+series = "BOJ Working Paper Series"
+url = "https://www.boj.or.jp/en/research/wps_rev/index.htm"
+links = '/wps_rev/wps_\d{4}/wp\d+e\d+\.htm$'
+note = "The page shows the three newest working papers, beside the Review and Research Laboratory series, which the links filter leaves out. Each year's full list is at /en/research/wps_rev/wps_<year>/index.htm."
+
+[[source]]
+name = "Sveriges Riksbank"
+series = "Working Paper Series"
+title_match = '^No\. \d+ (.+)$'
+url = "https://www.riksbank.se/en-gb/press-and-published/publications/working-paper-series/"
+scope = "main"
+item = "li"
+title = ".header--file__title"
+links = '/globalassets/media/rapporter/working-papers/.+\.pdf$'
+note = "Newest first, split over pages. Each paper links straight to its PDF; there is no web page per paper."
+
+[[source]]
+name = "Central Bank of Ireland"
+series = "Research Technical Papers"
+url = "https://www.centralbank.ie/publication/research-publications/research-technical-papers"
+enabled = false
+reason = "the list is built by JavaScript from data inside a script on the page, so there are no links for the watcher to read"
+note = "The page carries the whole list as data in a <script> (documentName and url pairs, with PDFs under /docs/default-source/publications/research-technical-papers/). The watcher drops scripts and reads only links and feeds, so a recipe would need a code change. No feed for the series was found."
+
+[[source]]
+name = "Banco de Portugal"
+series = "Working Papers"
+url = "https://www.bportugal.pt/en/papers"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403)."
+note = "Both robots.txt and the list answered 403 (Cloudflare)."
+
+[[source]]
+name = "Czech National Bank"
+series = "CNB Working Paper Series"
+# The Working paper page fills its list in with JavaScript from the HTML fragment list-ajax.jsp, which answers a plain GET.
+# contentpath picks this series' list; newest first, 20 per page.
+url = "https://www.cnb.cz/system/modules/org.opencms.apollo/elements/list-ajax.jsp?contentpath=/en/economic-research/research-publications/cnb-working-paper-series/.content/lists/l_00001.xml&instanceId=li_71040de6&elementId=le_561afa7e&sitepath=/en/economic-research/research-publications/cnb-working-paper-series/&subsite=/sites/cnb/en/economic-research/research-publications/cnb-working-paper-series/&__locale=en&loc=en"
+links = '/research-publications/cnb-working-paper-series/[^/?#]+/?$'
+note = "The page people see is https://www.cnb.cz/en/economic-research/research-publications/cnb-working-paper-series/. The bank's RSS page has no feed for this series."
+
+[[source]]
+name = "Banco de México"
+series = "Working Papers (Documentos de Investigación)"
+title_match = '^\d{4}-\d{2} (.+)$'
+url = "https://www.banxico.org.mx/viewers2/JSP/docsInvestigacionAnio_en.jsp?static=y"
+links = '/banco-de-mexico-working-papers/.+\.pdf$'
+note = "The page shows the ten newest papers. Each links straight to its PDF, whose name is an identifier, and the paper's number starts its title."
+
+[[source]]
+name = "Banco Central do Brasil"
+series = "Working Paper Series (Trabalhos para Discussão)"
+url = "https://www.bcb.gov.br/publicacoes/trabalhosdiscussao"
+enabled = false
+reason = "the list is built by JavaScript, and the bank's RSS page has no feed for this series"
+alert = "https://www.bcb.gov.br/publicacoes/cadastrolista_trabalhosdiscussao"
+note = "The page is an empty application shell that fills itself from the site's own service; that service was not tried. The feeds at /acessoinformacao/rss cover other publications. The alert link is the series' own mailing list signup, linked from the page's content."
+
+[[source]]
+name = "Banco de la República"
+series = "Borradores de Economía"
+url = "https://repositorio.banrep.gov.co/collections/423d74ab-40cc-4310-95b1-6559607ebaf2"
+links = '/items/[0-9a-f-]{36}$'
+note = "The bank's repository (DSpace): the collection page's Recent Submissions, 20 newest first, in plain HTML. Its Atom feed is under /server, which robots.txt disallows. www.banrep.gov.co and investiga.banrep.gov.co both answered a script with a Radware bot check, so neither is used."
+
+[[source]]
+name = "South African Reserve Bank"
+series = "SARB Working Paper Series"
+url = "https://www.resbank.co.za/en/home/publications/working-papers"
+enabled = false
+reason = "resbank.co.za closes the connection on the watcher (even for robots.txt), so the list can't be read"
+note = "Two tries, minutes apart, both ended in a connection reset. That was from a Windows machine, not from GitHub's runner. The PDFs are at /content/dam/sarb/publications/working-papers/<year>/."
 
 # ---- Government agencies ---------------------------------------------------------------------------------
 
@@ -286,6 +439,22 @@ name = "Statistics Canada"
 series = "Analytical Studies Branch Research Paper Series"
 url = "https://www150.statcan.gc.ca/n1/en/catalogue/11F0019M"
 links = '^https://www150\.statcan\.gc\.ca/n1/pub/11f0019m/'
+
+[[source]]
+name = "U.S. Census Bureau"
+series = "Center for Economic Studies (CES) Working Papers"
+url = "https://www.census.gov/library/working-papers/series/ces-wp.html"
+item = "li.cmp-list__item"
+title = ".cmp-list__item-title"
+links = '/library/working-papers/\d{4}/adrm/CES-WP-\d+-\d+\.html$'
+
+[[source]]
+name = "Congressional Budget Office"
+series = "CBO Working Papers"
+url = "https://www.cbo.gov/publication/most-recent/working-papers"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403, a bot check page)."
+note = "Both robots.txt and the list answered 403."
 
 # ---- Think tanks & institutes ----------------------------------------------------------------------------
 
@@ -397,6 +566,99 @@ item = "div.research-panel"
 title = "h3"
 links = '/research/[^/]+/$'
 skip = '/research/(type|theme|topic)/'
+
+[[source]]
+name = "Peterson Institute (PIIE)"
+series = "PIIE Working Papers"
+url = "https://www.piie.com/publications/working-papers"
+links = '/publications/working-papers/\d{4}/[^/?#]+$'
+note = "Ten per page, newest first."
+
+[[source]]
+name = "Resources for the Future"
+series = "RFF Working Papers"
+url = "https://www.rff.org/publications/working-papers/"
+enabled = false
+reason = "the list is built by JavaScript, and the site's robots.txt keeps bots out of /api/"
+note = "The page's HTML holds only an empty publication_listing_app element. No feed for the series was found."
+
+[[source]]
+name = "Center for Global Development"
+series = "CGD Working Papers"
+url = "https://www.cgdev.org/section/publications"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403, a Cloudflare check)."
+
+[[source]]
+name = "Levy Economics Institute"
+series = "Levy Working Papers"
+url = "https://www.levyinstitute.org/research/publications/?_sft_publication_types=working-papers"
+item = "li.publication"
+title = "h3"
+links = '^https://www\.levyinstitute\.org/publications/[^/?#]+/?$'
+note = "The publications page filtered to Working Papers, newest first."
+
+[[source]]
+name = "Institute for New Economic Thinking"
+series = "INET Working Papers"
+url = "https://www.ineteconomics.org/research/research-papers"
+links = '/research/research-papers/[^/?#]+$'
+skip = '/research-papers/p\d+$'
+note = "skip leaves out the page-number links (/research-papers/p2)."
+
+[[source]]
+name = "NIESR"
+series = "NIESR Discussion Papers"
+url = "https://niesr.ac.uk/publication-type/discussion-papers/feed"
+kind = "feed"
+links = '/publications/'
+note = "WordPress feed for the Discussion Papers publication type, ten items. There is a separate Working Papers type at /publication-type/working-papers."
+
+[[source]]
+name = "CPB Netherlands Bureau for Economic Policy Analysis"
+series = "CPB Discussion Papers"
+url = "https://www.cpb.nl/en/publications?facet_publication_type=discussion_paper"
+item = "a.overview-list-item__link"
+title = ".overview-list-item__heading"
+links = '/en/publication/[^/?#]+$'
+note = "The publications page filtered to discussion papers, ten per page, newest first."
+
+[[source]]
+name = "FEEM"
+series = "FEEM Working Papers"
+url = "https://www.feem.it/feed/?post_type=publications&cat=3"
+kind = "feed"
+links = '/publications/[^/?#]+/?$'
+note = "WordPress feed of the publications post type, category 3 (Working Paper). The page people see, https://www.feem.it/pubblicazioni/feem-working-papers/, has no paper links in its HTML."
+
+[[source]]
+name = "CEPII"
+series = "CEPII Working Papers"
+url = "https://www.cepii.fr/CEPII/en/publications/wp.asp"
+links = '/publications/wp/abstract\.asp\?NoDoc=\d+$'
+note = "Newest first. The query string is the paper's identity, so strip_query must stay off. The site's feeds (fluxRSS.asp) cover all publications and the Lettre, not this series alone."
+
+[[source]]
+name = "WIFO"
+series = "WIFO Working Papers"
+url = "https://www.wifo.ac.at/en/publications/wifo-working-papers/"
+scope = ".search-publication-list"
+links = '/en/publication/\d+/?$'
+note = "Ten per page, newest first. The feed at /feed/?cpt=publication mixes every publication type."
+
+[[source]]
+name = "IFN"
+series = "IFN Working Papers"
+url = "https://www.ifn.se/en/publications/"
+links = '^https://www\.ifn\.se/en/publications/working-papers/\d{4}/\d+/?$'
+note = "The publications page mixes working papers with articles and books; the links filter keeps the working papers. /en/publications/working-papers/ itself answers 404."
+
+[[source]]
+name = "IFAU"
+series = "IFAU Working Papers"
+url = "https://www.ifau.se/en/research/publications/working-papers/"
+links = '/en/Research/Publications/Working-papers/\d{4}/[^/?#]+/?$'
+note = "Ten per page, newest number first. The PDF links are left out; each paper has its own page."
 
 # ---- Universities & research centers ---------------------------------------------------------------------
 
@@ -614,6 +876,148 @@ url = "https://www.uu.se/en/department/economics/research"
 enabled = false
 reason = "the series is listed only in DiVA, which shows a bot check, and DiVA's robots.txt keeps bots off its search result pages"
 note = "The department site has no working-paper list (its Scientific publications page holds peer-reviewed journal articles only). DiVA (uu.diva-portal.org) answers the watcher with an Anubis bot check, its robots.txt disallows /smash/resultList.jsf, and urn.kb.se/resolve is disallowed too. EconStor, which also holds the series, shows the same bot check. RePEc stops at 2020:6."
+
+[[source]]
+name = "Harvard Business School"
+series = "HBS Working Papers"
+url = "https://www.hbs.edu/faculty/research/Pages/default.aspx"
+enabled = false
+reason = "hbs.edu answers scripts with a bot check (AWS WAF)."
+note = "The Research page returned the WAF challenge. The Faculty & Research home page did answer, but it only shows a mix of publication types with nothing in the links to pick out working papers, so it can't serve as a recipe."
+
+[[source]]
+name = "Becker Friedman Institute (Chicago)"
+series = "BFI Working Papers"
+url = "https://bfi.uchicago.edu/feed/?post_type=working_papers"
+kind = "feed"
+links = '/working-papers/[^/?#]+/?$'
+note = "WordPress feed of the working_papers post type, ten items, newest first. The page people see is https://bfi.uchicago.edu/working-papers/."
+
+[[source]]
+name = "Industrial Relations Section (Princeton)"
+series = "IRS Working Papers"
+url = "https://irs.princeton.edu/publications/working-papers"
+enabled = false
+reason = "The site refuses automated requests (HTTP 403, a Cloudflare check)."
+
+[[source]]
+name = "PIER (Penn)"
+series = "PIER Working Papers"
+url = "https://economics.sas.upenn.edu/pier/working-paper"
+links = '/pier/working-paper/\d{4}/[^/?#]+$'
+note = "Newest first."
+
+[[source]]
+name = "Centre for Economic Performance (LSE)"
+series = "CEP Discussion Papers"
+url = "https://cep.lse.ac.uk/_new/publications/discussion-papers/"
+item = ".abstract-link"
+title = "h5"
+links = 'abstract\.asp\?index=\d+$'
+note = "20 per page, newest first. The query string is the paper's identity, so strip_query must stay off. robots.txt comes back as an HTML page, which the watcher reads as no rules."
+
+[[source]]
+name = "University of Cambridge"
+series = "Cambridge Working Papers in Economics (CWPE)"
+url = "https://www.econ.cam.ac.uk/publications/cwpe"
+links = '/publications/cwpe/\d+$'
+note = "100 per page, newest first. The directory also names the Janeway Institute Working Papers, which this recipe does not cover."
+
+[[source]]
+name = "CAGE (Warwick)"
+series = "CAGE Working Papers"
+enabled = false
+reason = "Each link runs the paper's number, authors and title together, so the title can't be told apart."
+url = "https://warwick.ac.uk/fac/soc/economics/research/centres/cage/publications/workingpapers/"
+links = '/cage/publications/workingpapers/\d{4}/[^/?#]+/?$'
+note = "Newest first. The link text gives the number and authors before the title."
+
+[[source]]
+name = "University of Warwick"
+series = "Warwick Economics Research Papers"
+title_match = '^\d+ - (.+)$'
+url = "https://warwick.ac.uk/fac/soc/economics/research/workingpapers/"
+links = '/research/workingpapers/\d{4}/.+\.pdf$'
+note = "Each paper links straight to its PDF, twice (an icon and the title). The list is not strictly in number order."
+
+[[source]]
+name = "Toulouse School of Economics"
+series = "TSE Working Papers"
+url = "https://www.tse-fr.eu/tse-publications?publication_family%5B2023%5D=2023&sort_by=created_desc"
+item = ".card-publication"
+title = ".card-publication-title"
+links = '/publications/working-paper/[^/?#]+$'
+note = "The publications page filtered to Working Paper, 12 per page. A revised paper moves back up the list, so an old paper the watcher never saw can appear as new. The site runs a bot check (CrowdSec): a paper's page answered with its challenge while this list did not, so turn the source off if it starts failing."
+
+[[source]]
+name = "Paris School of Economics"
+series = "PSE Working Papers"
+url = "https://paris1.hal.science/PSE_WP"
+enabled = false
+reason = "the series is on HAL, which shows a bot check, and HAL's API has a robots.txt that keeps bots out; PSE's own site refuses scripts too (HTTP 418)"
+note = "paris1.hal.science answers with a 'Making sure you're not a bot' page, even for robots.txt. api.archives-ouvertes.fr disallows /search/. www.parisschoolofeconomics.eu answers 418."
+
+[[source]]
+name = "Sciences Po"
+series = "Economics Discussion Papers"
+url = "https://www.sciencespo.fr/department-economics/research/publications-and-working-papers/sciences-po-economics-discussion-papers/"
+links = '(sciencespo\.hal\.science|hal-sciencespo\.archives-ouvertes\.fr)/hal-\d+'
+note = "The page lists the papers by year and links to their HAL records, which the watcher never opens. A few old papers link to PDFs instead and are left out. robots.txt asks for ten seconds between requests; the watcher makes one a day."
+
+[[source]]
+name = "Tinbergen Institute"
+series = "TI Discussion Papers"
+url = "https://tinbergen.nl/discussion-papers"
+item = "article._publication-article"
+links = '/discussion-paper/\d+/[^/?#]+$'
+title_match = '^(?:\S+ - )?(.+?)\s+Authors?\s*:'
+note = "Newest first. The link text gives the number, the title and then the authors; title_match stops at the authors."
+
+[[source]]
+name = "CentER (Tilburg)"
+series = "CentER Discussion Papers"
+enabled = false
+reason = "Each link runs the year, number, authors and title together, so the title can't be told apart."
+url = "https://www.tilburguniversity.edu/research/economics-and-management/publications/discussion-paper"
+links = 'research\.tilburguniversity\.edu/en/publications/[0-9a-f-]+$'
+note = "Newest first. Each paper links to its record on the university's research portal. The text has no separate title element, so an entry reads '2026 nr.020 Authors Title'. The portal's own RSS is disallowed by its robots.txt."
+
+[[source]]
+name = "UNU-MERIT (Maastricht)"
+series = "UNU-MERIT Working Papers"
+url = "https://unu-merit.nl/publications/wp.php"
+item = ".pub-entry"
+title = "strong"
+links = '/publications/abstract\.php\?id=\d+$'
+note = "The page opens on the current year's papers, newest first, so it may be short or empty early in a year. The query string is the paper's identity, so strip_query must stay off."
+alert = "https://unu-merit.nl/signup/wp.html"
+allow_empty = true
+
+[[source]]
+name = "CORE / LIDAM (UCLouvain)"
+series = "LIDAM Discussion Papers (CORE)"
+enabled = false
+reason = "A year's papers sit in one paragraph and each link says only '2026 / 22', so there is no title to take."
+url = "https://uclouvain.be/en/research-institutes/lidam/core/core-dp-since1992"
+links = 'hdl\.handle\.net/2078(\.\d+)?/\d+$'
+min_title = 8
+note = "All papers since 1992 on one page, newest first. A whole year's papers sit in one paragraph, so a title can't be told apart for each link, and min_title keeps the link text, such as '2026 / 22', as the title. A paper listed before its record exists has an empty link and appears once it gets one. A few old papers link to dial.uclouvain.be instead and are left out."
+
+[[source]]
+name = "CEMFI (Madrid)"
+series = "CEMFI Working Papers"
+url = "https://www.cemfi.es/research/publications/index.asp"
+links = '/ftp/wp/\d+\.pdf$'
+allow_empty = true
+note = "The page opens on the current year's papers, oldest first, so new papers appear at the end and the list may be short or empty early in a year. Each paper links straight to its PDF."
+
+[[source]]
+name = "CER-ETH (ETH Zurich)"
+series = "CER-ETH Working Papers"
+url = "https://cer.ethz.ch/research/working-papers.html"
+links = '/cer-eth/.*/working-papers/wp-\d+-\d+\.pdf$'
+title_match = '^Download\s+(.+?)\s*\(PDF'
+note = "Nearly the whole series is on one page, newest first, so the first check records about 300 papers. Each paper links straight to its PDF."
 
 # ---- Conferences -----------------------------------------------------------------------------------------
 

@@ -1,8 +1,10 @@
 # econ-paper-watcher
 
-Once a day this checks the listing pages of economics working-paper series that have no RSS feed and whose papers
-don't reach NEP (they are missing from RePEc, or their RePEc listing stopped updating). Papers it hasn't seen before go
-into one Atom feed, so you can follow them in the same reader as NEP and the publishers' own feeds.
+Once a day this checks the listing pages of economics working-paper series that are hard to follow any other way: most
+have no RSS feed of their own with only papers on it. It began with series whose papers don't reach NEP, and it also
+covers the series that [EconGoat](https://econgoat.com/working-papers/) can't find through Crossref or EconStor. Papers
+it hasn't seen before go into one Atom feed, so you can follow them in the same reader as NEP and the publishers' own
+feeds.
 
 - **Feed:** `docs/feed.xml`, published by GitHub Pages at `https://<owner>.github.io/econ-paper-watcher/feed.xml`
 - **Status page:** `docs/index.html` lists each source as watched, failing or not watched, with the reason.
