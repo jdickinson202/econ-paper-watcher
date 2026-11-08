@@ -4,7 +4,15 @@
   <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-07T13:10:27Z</updated>
+  <updated>2026-11-08T13:31:20Z</updated>
+  <entry>
+    <title>CAF has failed 3 runs in a row: the site answered HTTP 403</title>
+    <link href="https://scioteca.caf.com/handle/123456789/34"/>
+    <id>urn:econ-paper-watcher:warning:caf-caf-working-papers:2026-11-08</id>
+    <updated>2026-11-08T13:31:20Z</updated>
+    <author><name>New economics working papers: econ-paper-watcher</name></author>
+    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
+  </entry>
   <entry>
     <title>International Growth Centre: Improving state effectiveness in arsenic risk mitigation: experimental evidence from Bangladesh</title>
     <link href="https://www.theigc.org/publications/improving-state-effectiveness-arsenic-risk-mitigation-experimental-evidence-bangladesh"/>
