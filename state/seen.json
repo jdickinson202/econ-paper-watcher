@@ -1,7 +1,7 @@
 {
  "sources": {
   "bread-bread-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://drive.google.com/open?id=13FD4Iz4j3YdhKv2DYda3FsHWV-zTI1fl": "2026-11-03T22:04:21Z",
     "https://drive.google.com/open?id=1Iz3gj9zkdMRDhRk8-FQxtbSX-m3SqfkY": "2026-11-03T22:04:21Z",
@@ -58,7 +58,7 @@
     "https://github.com/GunnRobert/BREAD-Working-Papers/blob/f670ffe42f9375c036a0a3e233d1dfd61ea6d029/WP%20620-%20Chat%20Over%20Coffee%2C%20Diffusion%20of%20Agronomic%20Practices%20and%20Market%20Spillovers%20in%20Rwanda.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 53,
    "fails": 0,
    "last_error": "",
@@ -66,7 +66,7 @@
    "fail_since": ""
   },
   "ecgi-ecgi-working-papers-finance-law": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ecgi.global/publications/working-papers/profiting-from-prediction": "2026-11-03T22:04:21Z",
     "https://www.ecgi.global/publications/working-papers/i-dont-recall-information-and-the-governance-tradeoffs-in-securities": "2026-11-03T22:04:21Z",
@@ -85,18 +85,20 @@
     "https://www.ecgi.global/publications/working-papers/decentralized-voting-in-mutual-fund-families": "2026-11-03T22:04:21Z",
     "https://www.ecgi.global/publications/working-papers/credit-rating-agencies-liabilities": "2026-11-03T22:04:21Z",
     "https://www.ecgi.global/publications/working-papers/the-omnibus-i-directive-and-the-eu-sustainable-finance-trilemma": "2026-11-03T22:04:21Z",
-    "https://www.ecgi.global/publications/working-papers/shareholder-empowerment-and-ownership-structure-in-a-free-contracting": "2026-11-03T22:04:21Z"
+    "https://www.ecgi.global/publications/working-papers/shareholder-empowerment-and-ownership-structure-in-a-free-contracting": "2026-11-03T22:04:21Z",
+    "https://www.ecgi.global/publications/working-papers/interlocking-directorate-firm-value-and-product-market-competition": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 18,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "international-growth-centre-igc-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.theigc.org/publications/social-safety-net-bangladesh-family-card": "2026-11-03T22:04:21Z",
     "https://www.theigc.org/publications/transforming-small-and-medium-enterprise-integration-global-value-chains": "2026-11-03T22:04:21Z",
@@ -124,19 +126,20 @@
     "https://www.theigc.org/publications/modernising-customs-risk-management-capacity-constrained-environments-introducing": "2026-11-07T13:10:27Z",
     "https://www.theigc.org/publications/getting-there-how-transport-and-social-norms-shape-womens-work-amman": "2026-11-07T13:10:27Z",
     "https://www.theigc.org/publications/last-mile-impacts-market-access-improvements-remote-rural-mozambique": "2026-11-07T13:10:27Z",
-    "https://www.theigc.org/publications/customer-management-global-markets-theory-and-evidence-bangladesh-exporters": "2026-11-07T13:10:27Z"
+    "https://www.theigc.org/publications/customer-management-global-markets-theory-and-evidence-bangladesh-exporters": "2026-11-07T13:10:27Z",
+    "https://www.theigc.org/publications/can-participatory-community-based-targeting-improve-legitimacy-perceived-fairness": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
    "warned": "",
    "fail_since": "",
-   "last_new": "2026-11-07T13:10:27Z"
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "aehn-african-economic-history-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://aehnetwork.org/working-papers/11558": "2026-11-03T22:04:21Z",
     "https://aehnetwork.org/working-papers/corporations-as-the-state-concessions-urbanization-and-long-run-development-in-the-copperbelt": "2026-11-03T22:04:21Z",
@@ -226,7 +229,7 @@
     "https://aehnetwork.org/working-papers/moving-forward-in-african-economic-history-bridging-the-gap-between-methods-and-sources": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 86,
    "fails": 0,
    "last_error": "",
@@ -234,7 +237,7 @@
    "fail_since": ""
   },
   "aerc-aerc-research-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://publication.aercafricalibrary.org/handle/123456789/4133": "2026-11-03T22:04:21Z",
     "https://publication.aercafricalibrary.org/handle/123456789/4132": "2026-11-03T22:04:21Z",
@@ -278,7 +281,7 @@
     "https://publication.aercafricalibrary.org/handle/123456789/4093": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 40,
    "fails": 0,
    "last_error": "",
@@ -286,7 +289,7 @@
    "fail_since": ""
   },
   "amro-amro-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.amro-asia.org/asean3-financial-cycle-synchronization-with-the-global-cycle-and-within-the-region": "2026-11-03T22:04:21Z",
     "https://www.amro-asia.org/transition-finance-sustainable-taxonomy-and-climate-policy-a-three-sector-environmental-dsge-framework-for-the-philippines": "2026-11-03T22:04:21Z",
@@ -310,7 +313,7 @@
     "https://www.amro-asia.org/biodiversity-linked-bonds-an-option-pricing-based-valuation-approach": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -318,7 +321,7 @@
    "fail_since": ""
   },
   "african-development-bank-afdb-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.afdb.org/en/documents/working-paper-388-intra-african-immigration-97388": "2026-11-03T22:04:21Z",
     "https://www.afdb.org/en/documents/working-paper-387-climate-change-risks-and-coping-strategies-mozambique-role-climate-resilient-infrastructure": "2026-11-03T22:04:21Z",
@@ -342,13 +345,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 18,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "caf-caf-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://scioteca.caf.com/handle/123456789/2733": "2026-11-03T22:04:21Z",
     "https://scioteca.caf.com/handle/123456789/2731": "2026-11-03T22:04:21Z",
@@ -374,13 +377,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-05T14:44:05Z",
    "last_count": 20,
-   "fails": 3,
+   "fails": 4,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-08T13:31:20Z",
    "fail_since": "2026-11-06T14:22:11Z"
   },
   "ebrd-ebrd-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/battle-over-knowledge.html": "2026-11-03T22:04:21Z",
     "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/missing-einsteins-emerging-europe-central-asia.html": "2026-11-03T22:04:21Z",
@@ -393,18 +396,20 @@
     "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/moving-goalposts-changing-objectives-industrial-policy.html": "2026-11-03T22:04:21Z",
     "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/refugees-entrepreneurship-evidence-from-ukrainians-poland.html": "2026-11-03T22:04:21Z",
     "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/walking-the-talk-bank-climate-commitments.html": "2026-11-03T22:04:21Z",
-    "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/violent-conflict-cross-border-lending.html": "2026-11-03T22:04:21Z"
+    "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/violent-conflict-cross-border-lending.html": "2026-11-03T22:04:21Z",
+    "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/importers-big-and-small.html": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 12,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "european-commission-jrc-jrc-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://publications.jrc.ec.europa.eu/repository/handle/JRC148535": "2026-11-03T22:04:21Z",
     "https://publications.jrc.ec.europa.eu/repository/handle/JRC147056": "2026-11-03T22:04:21Z",
@@ -428,7 +433,7 @@
     "https://publications.jrc.ec.europa.eu/repository/handle/JRC144338": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -436,7 +441,7 @@
    "fail_since": ""
   },
   "ilo-ilo-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ilo.org/publications/monopsonic-power-and-wage-dynamics-insights-cross-country-labour-market": "2026-11-03T22:04:21Z",
     "https://www.ilo.org/publications/ai-ethics-and-ilo%E2%80%99s-international-labour-standards-system-exploring": "2026-11-03T22:04:21Z",
@@ -460,7 +465,7 @@
     "https://www.ilo.org/publications/opportunities-and-challenges-decent-work-platform-economy-asia-and-pacific": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -468,7 +473,7 @@
    "fail_since": ""
   },
   "danmarks-nationalbank-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/working-paper/2026/the-currency-composition-of-foreign-exchange-reserves-a-new-database": "2026-11-03T22:04:21Z",
     "https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/working-paper/2026/output-gap-measurement-through-the-lens-of-macroeconomic-theory": "2026-11-03T22:04:21Z",
@@ -477,7 +482,7 @@
     "https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/working-paper/2026/lack-of-trust-and-fiscal-dominance-evidence-from-a-firm-survey-experiment": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 4,
    "fails": 0,
    "last_error": "",
@@ -485,12 +490,12 @@
    "fail_since": ""
   },
   "reserve-bank-of-india-rbi-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=24096": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 1,
    "fails": 0,
    "last_error": "",
@@ -498,7 +503,7 @@
    "fail_since": ""
   },
   "bank-of-korea-bok-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.bok.or.kr/imerEng/bbs/B0000196/view.do?nttId=11064888&searchCnd=1&searchKwd=&depth2=600354&depth=600354&depth=600342&depth=600341&pageUnit=20&pageIndex=1&programType=rsrchrDataEng&menuNo=600341&oldMenuNo=600354": "2026-11-03T22:04:21Z",
     "https://www.bok.or.kr/imerEng/bbs/E0002902/view.do?nttId=11064008&searchCnd=1&searchKwd=&depth2=600354&depth=600354&depth=600342&depth=600341&pageUnit=20&pageIndex=1&programType=rsrchrDataEng&menuNo=600342&oldMenuNo=600354": "2026-11-03T22:04:21Z",
@@ -524,13 +529,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 20,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site's robots.txt asks bots to stay out of this page",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "state-bank-of-pakistan-sbp-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.sbp.org.pk/assets/document/WP124.pdf": "2026-11-03T22:04:21Z",
     "https://www.sbp.org.pk/assets/document/Key_Determinants_of_Startup_Survival_in_Pakistan0_working-papers.pdf": "2026-11-03T22:04:21Z",
@@ -659,7 +664,7 @@
     "https://www.sbp.org.pk/assets/document/Long_run_Trend__Business_Cycles_and_Short_run_Shocks_in_Real_GDP157_working-papers.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 125,
    "fails": 0,
    "last_error": "",
@@ -667,7 +672,7 @@
    "fail_since": ""
   },
   "energy-information-administration-eia-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.eia.gov/workingpapers/pdf/elasticity_shale_oil.pdf": "2026-11-03T22:04:21Z",
     "https://www.eia.gov/workingpapers/pdf/bkl042015_eia_071515.pdf": "2026-11-03T22:04:21Z",
@@ -688,7 +693,7 @@
     "https://www.eia.gov/workingpapers/pdf/factors_influencing_oil_prices.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 17,
    "fails": 0,
    "last_error": "",
@@ -696,7 +701,7 @@
    "fail_since": ""
   },
   "fdic-center-for-financial-research-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.fdic.gov/analysis/cfr/working-papers/2024/cfr-wp2024-03.pdf": "2026-11-03T22:04:21Z",
     "https://www.fdic.gov/analysis/cfr/working-papers/2024/cfr-wp2024-02.pdf": "2026-11-03T22:04:21Z",
@@ -704,7 +709,7 @@
     "https://www.fdic.gov/analysis/cfr/working-papers/2023/cfr-wp2023-03.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 4,
    "fails": 0,
    "last_error": "",
@@ -712,7 +717,7 @@
    "fail_since": ""
   },
   "federal-trade-commission-bureau-of-economics-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ftc.gov/reports/merger-analysis-latent-price": "2026-11-03T22:04:21Z",
     "https://www.ftc.gov/reports/vertical-integration-sequential-model-supply-chain-bargaining": "2026-11-03T22:04:21Z",
@@ -738,13 +743,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 20,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "hud-pd-r-hud-user-research-and-cityscape": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.huduser.gov/portal/publications/MTW-Asset-Building-Cohort-Evaluation-Baseline-Report.html": "2026-11-03T22:04:21Z",
     "https://www.huduser.gov/portal/publications/RAD-Long-Term-Preservation-and-Financial-Viability.html": "2026-11-03T22:04:21Z",
@@ -761,7 +766,7 @@
     "https://www.huduser.gov/portal/publications/Study-of-Submetering-in-HUD-Funded-Housing.html": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 13,
    "fails": 0,
    "last_error": "",
@@ -769,7 +774,7 @@
    "fail_since": ""
   },
   "occ-economics-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.occ.gov/publications-and-resources/publications/economics/working-papers-banking-perf-reg/economic-working-camels-ratings.html": "2026-11-03T22:04:21Z",
     "https://www.occ.gov/publications-and-resources/publications/economics/working-papers-banking-perf-reg/economic-working-chartering-fintech-future.html": "2026-11-03T22:04:21Z",
@@ -782,7 +787,7 @@
     "https://www.occ.gov/publications-and-resources/publications/economics/working-papers-new-frontiers-bank-risk-mgmt/economic-working-paper-modeling-loss-given-default-regressions.html": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 9,
    "fails": 0,
    "last_error": "",
@@ -790,7 +795,7 @@
    "fail_since": ""
   },
   "securities-and-exchange-commission-dera-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.sec.gov/about/divisions-offices/division-economic-risk-analysis/staff-papers-analyses/shrinking-market-inside-market-effects-reducing-round-lot": "2026-11-03T22:04:21Z",
     "https://www.sec.gov/about/divisions-offices/division-economic-risk-analysis/staff-papers-analyses/riskless-principal-trades-corporate-bond-markets": "2026-11-03T22:04:21Z",
@@ -816,13 +821,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 20,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "social-security-administration-ores-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ssa.gov/policy/docs/workingpapers/wp80.pdf": "2026-11-03T22:04:21Z",
     "https://www.ssa.gov/policy/docs/workingpapers/wp24.pdf": "2026-11-03T22:04:21Z",
@@ -943,13 +948,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 115,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "u-s-treasury-office-of-tax-analysis-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://home.treasury.gov/system/files/131/TP-8.pdf": "2026-11-03T22:04:21Z",
     "https://home.treasury.gov/system/files/131/Graph-Distributional-Analysis-2025.pdf": "2026-11-03T22:04:21Z",
@@ -1016,7 +1021,7 @@
     "https://home.treasury.gov/system/files/131/Staff-Publications-2022-11_0.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 63,
    "fails": 0,
    "last_error": "",
@@ -1024,7 +1029,7 @@
    "fail_since": ""
   },
   "bureau-of-economic-analysis-bea-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.bea.gov/research/papers/2026/labor-composition-and-recent-productivity-acceleration-evidence-prototype": "2026-11-03T22:04:21Z",
     "https://www.bea.gov/research/papers/2026/quarterly-labor-input-measurement-extending-industry-level-production-account": "2026-11-03T22:04:21Z",
@@ -1038,7 +1043,7 @@
     "https://www.bea.gov/research/papers/2026/productivity-growth-us-medical-care-sector-analysis-using-us-bureau-economic": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -1046,7 +1051,7 @@
    "fail_since": ""
   },
   "bureau-of-labor-statistics-bls-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.bls.gov/osmr/research-papers/2000/ec000020.htm": "2026-11-03T22:04:21Z",
     "https://www.bls.gov/osmr/research-papers/2000/ec000030.htm": "2026-11-03T22:04:21Z",
@@ -1656,13 +1661,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 604,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "statistics-canada-analytical-studies-branch-research-paper-s": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2026002-eng.htm": "2026-11-03T22:04:21Z",
     "https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m2026001-eng.htm": "2026-11-03T22:04:21Z",
@@ -2074,7 +2079,7 @@
     "https://www150.statcan.gc.ca/n1/pub/11f0019m/11f0019m1994071-eng.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 408,
    "fails": 0,
    "last_error": "",
@@ -2082,7 +2087,7 @@
    "fail_since": ""
   },
   "brookings-institution-brookings-papers-on-economic-activity": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.brookings.edu/events/bpea-fall-2026-conference/": "2026-11-03T22:04:21Z",
     "https://www.brookings.edu/collection/brookings-papers-on-economic-activity-fall-2025-edition/": "2026-11-03T22:04:21Z",
@@ -2092,7 +2097,7 @@
     "https://www.brookings.edu/articles/tariffs-in-2025-short-run-impacts-on-the-us-economy/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 6,
    "fails": 0,
    "last_error": "",
@@ -2100,7 +2105,7 @@
    "fail_since": ""
   },
   "lincoln-institute-of-land-policy-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.lincolninst.edu/publications/working-papers/funcao-socioambiental-coberturas/": "2026-11-03T22:04:21Z",
     "https://www.lincolninst.edu/publications/working-papers/del-analisis-territorial-captura-valor-metodologia-estrategias-diferenciadas-gestion-suelo-ciudad-guatemala/": "2026-11-03T22:04:21Z",
@@ -2117,7 +2122,7 @@
     "https://www.lincolninst.edu/publications/working-papers/page/96/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 13,
    "fails": 0,
    "last_error": "",
@@ -2125,7 +2130,7 @@
    "fail_since": ""
   },
   "washington-center-for-equitable-growth-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://equitablegrowth.org/working-papers/what-work-does-generative-ai-do/": "2026-11-03T22:04:21Z",
     "https://equitablegrowth.org/working-papers/the-terms-and-conditions-of-generative-ai/": "2026-11-03T22:04:21Z",
@@ -2135,7 +2140,7 @@
     "https://equitablegrowth.org/working-papers/the-macroeconomic-effects-of-climate-policy-uncertainty/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 6,
    "fails": 0,
    "last_error": "",
@@ -2143,7 +2148,7 @@
    "fail_since": ""
   },
   "3ie-3ie-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.3ieimpact.org/evidence-hub/publications/working-papers/synthesis-report-addressing-root-causes-and-drivers": "2026-11-03T22:04:21Z",
     "https://www.3ieimpact.org/evidence-hub/publications/working-papers/what-difference-does-policy-brief-make": "2026-11-03T22:04:21Z",
@@ -2157,7 +2162,7 @@
     "https://www.3ieimpact.org/evidence-hub/publications/working-papers/effects-food-systems-interventions-womens-empowerment": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -2165,7 +2170,7 @@
    "fail_since": ""
   },
   "american-enterprise-institute-aei-economics-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.aei.org/research-products/working-paper/estimated-fiscal-reaction-functions-and-the-calculation-of-sustainable-government-net-debt-limits-for-the-us-and-24-other-oecd-countries/": "2026-11-03T22:04:21Z",
     "https://www.aei.org/research-products/working-paper/a-long-run-economic-model-basis-forprojecting-the-finances-of-the-u-s-governmentand-national-spending-on-healthcare-analysis-of-productivity-increases-and-health-sector-reform/": "2026-11-03T22:04:21Z",
@@ -2287,13 +2292,13 @@
    "first_ok": "2026-11-03T22:04:21Z",
    "last_ok": "2026-11-03T22:10:21Z",
    "last_count": 116,
-   "fails": 6,
+   "fails": 7,
    "last_error": "the site answered HTTP 403",
    "warned": "2026-11-05T14:44:05Z",
    "fail_since": "2026-11-04T01:31:23Z"
   },
   "esri-japan-cabinet-office-esri-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.esri.cao.go.jp/en/esri/archive/e_dis/2026/e_dis407-e.html": "2026-11-03T22:04:21Z",
     "https://www.esri.cao.go.jp/en/esri/archive/e_dis/2026/e_dis406-e.html": "2026-11-03T22:04:21Z",
@@ -2302,7 +2307,7 @@
     "https://www.esri.cao.go.jp/en/esri/archive/e_dis/2025/e_dis403-e.html": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 5,
    "fails": 0,
    "last_error": "",
@@ -2310,7 +2315,7 @@
    "fail_since": ""
   },
   "fedesarrollo-documentos-de-trabajo": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "http://hdl.handle.net/11445/3890": "2026-11-03T22:04:21Z",
     "http://hdl.handle.net/11445/3750": "2026-11-03T22:04:21Z",
@@ -2329,7 +2334,7 @@
     "http://hdl.handle.net/11445/231": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 15,
    "fails": 0,
    "last_error": "",
@@ -2337,7 +2342,7 @@
    "fail_since": ""
   },
   "ofce-sciences-po-ofce-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ofce.fr/pdf/dtravail/OFCEWP2026-07.pdf": "2026-11-03T22:04:21Z",
     "https://www.ofce.fr/pdf/dtravail/OFCEWP2026-08.pdf": "2026-11-03T22:04:21Z",
@@ -3105,7 +3110,7 @@
     "https://www.ofce.fr/pdf/dtravail/WP1982-01.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 764,
    "fails": 0,
    "last_error": "",
@@ -3113,7 +3118,7 @@
    "fail_since": ""
   },
   "the-productivity-institute-tpi-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.productivity.ac.uk/research/digital-presenteeism-as-a-stratified-signalling-system-how-managers-interpret-digital-connectivity-behaviours-across-gender-parenthood-and-ethnicity/": "2026-11-03T22:04:21Z",
     "https://www.productivity.ac.uk/research/more-than-just-plug-and-play-early-evidence-on-organisational-capital-and-ai-adoption/": "2026-11-03T22:04:21Z",
@@ -3202,7 +3207,7 @@
     "https://www.productivity.ac.uk/research/performing-the-digital-ideal-worker-the-relationship-between-flexibility-stigma-ideal-worker-culture-and-digital-presenteeism/": "2026-11-04T14:37:26Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 85,
    "fails": 0,
    "last_error": "",
@@ -3211,7 +3216,7 @@
    "last_new": "2026-11-04T14:37:26Z"
   },
   "cega-berkeley-cega-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://escholarship.org/uc/item/1bv1r663": "2026-11-03T22:04:21Z",
     "https://escholarship.org/uc/item/76k7q9rs": "2026-11-03T22:04:21Z",
@@ -3245,7 +3250,7 @@
     "https://escholarship.org/uc/item/0z88s5d9": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 30,
    "fails": 0,
    "last_error": "",
@@ -3253,7 +3258,7 @@
    "fail_since": ""
   },
   "cream-ucl-cream-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.rfberlin.com/network-paper/the-fruits-of-horticulture-commercial-farming-across-local-economies-in-senegal/": "2026-11-03T22:04:21Z",
     "https://www.rfberlin.com/network-paper/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland/": "2026-11-03T22:04:21Z",
@@ -3268,7 +3273,7 @@
     "https://www.rfberlin.com/network-paper/gender-identity-and-economic-decision-making/": "2026-11-05T14:44:05Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -3277,7 +3282,7 @@
    "last_new": "2026-11-05T14:44:05Z"
   },
   "energy-institute-at-haas-berkeley-energy-institute-working-p": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://haas.berkeley.edu/energy-institute/research/abstracts/working-paper-367/": "2026-11-03T22:04:21Z",
     "https://haas.berkeley.edu/energy-institute/research/abstracts/wp366/": "2026-11-03T22:04:21Z",
@@ -3450,7 +3455,7 @@
     "https://haas.berkeley.edu/energy-institute/research/abstracts/working-paper-368/": "2026-11-07T13:10:27Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 168,
    "fails": 0,
    "last_error": "",
@@ -3459,7 +3464,7 @@
    "last_new": "2026-11-07T13:10:27Z"
   },
   "epic-chicago-epic-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://epic.uchicago.edu/working-papers/evaluating-the-spatial-consequences-of-a-climate-tipping-point/": "2026-11-03T22:04:21Z",
     "https://epic.uchicago.edu/working-papers/economics-of-demand-side-and-supply-side-climate-policies/": "2026-11-03T22:04:21Z",
@@ -3474,7 +3479,7 @@
     "https://epic.uchicago.edu/working-papers/the-economics-of-transitioning-away-from-fossil-fuels/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -3483,7 +3488,7 @@
    "last_new": "2026-11-06T14:22:11Z"
   },
   "international-inequalities-institute-lse-iii-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://researchonline.lse.ac.uk/id/eprint/140425/": "2026-11-03T22:04:21Z",
     "https://researchonline.lse.ac.uk/id/eprint/140375/": "2026-11-03T22:04:21Z",
@@ -3665,7 +3670,7 @@
     "http://eprints.lse.ac.uk/101809/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 178,
    "fails": 0,
    "last_error": "",
@@ -3673,7 +3678,7 @@
    "fail_since": ""
   },
   "ophi-oxford-ophi-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://ophi.org.uk/publications/RP73a": "2026-11-03T22:04:21Z",
     "https://ophi.org.uk/publications/Lines-of-sight-2026": "2026-11-03T22:04:21Z",
@@ -3697,7 +3702,7 @@
     "https://ophi.org.uk/publications/IsDB-OPHI_Briefs_4": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -3705,7 +3710,7 @@
    "fail_since": ""
   },
   "centre-for-health-economics-york-che-research-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.york.ac.uk/media/che/documents/papers/researchpapers/CHE%20RP%20203%20Final%20July%2026%2016.56.pdf": "2026-11-03T22:04:21Z",
     "https://www.york.ac.uk/media/che/documents/papers/researchpapers/CHE%20RP%20202.pdf": "2026-11-03T22:04:21Z",
@@ -3907,7 +3912,7 @@
     "https://www.york.ac.uk/media/che/documents/papers/researchpapers/rp1_Effects_on_waiting_times_of_expanding_provider_choice.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 198,
    "fails": 0,
    "last_error": "",
@@ -3915,7 +3920,7 @@
    "fail_since": ""
   },
   "cerge-ei-prague-cerge-ei-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cerge-ei.cz/pdf/wp/Wp824.pdf": "2026-11-03T22:04:21Z",
     "https://www.cerge-ei.cz/pdf/wp/Wp823.pdf": "2026-11-03T22:04:21Z",
@@ -4065,7 +4070,7 @@
     "https://www.cerge-ei.cz/pdf/wp/Wp679.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 146,
    "fails": 0,
    "last_error": "",
@@ -4073,7 +4078,7 @@
    "fail_since": ""
   },
   "collegio-carlo-alberto-turin-carlo-alberto-notebooks": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.carloalberto.org/wp-content/uploads/2026/07/no.762.pdf": "2026-11-03T22:04:21Z",
     "https://www.carloalberto.org/wp-content/uploads/2026/06/no.761.pdf": "2026-11-03T22:04:21Z",
@@ -4097,7 +4102,7 @@
     "https://www.carloalberto.org/wp-content/uploads/2025/07/no.743.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -4105,7 +4110,7 @@
    "fail_since": ""
   },
   "eief-rome-eief-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.eief.it/eief/images/WP_26.02.pdf": "2026-11-03T22:04:21Z",
     "https://www.eief.it/eief/images/WP_26.03.pdf": "2026-11-03T22:04:21Z",
@@ -4114,7 +4119,7 @@
     "https://www.eief.it/eief/images/WP_26.08.pdf": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 5,
    "fails": 0,
    "last_error": "",
@@ -4122,7 +4127,7 @@
    "fail_since": ""
   },
   "igier-bocconi-igier-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://igier.unibocconi.eu/publications/working-papers/analysis-information-feedback-and-selfconfirming-equilibrium": "2026-11-03T22:04:21Z",
     "https://igier.unibocconi.eu/publications/working-papers/niveloids-and-their-extensionsrisk-measures-small-domains": "2026-11-03T22:04:21Z",
@@ -4152,7 +4157,7 @@
     "https://igier.unibocconi.eu/publications/working-papers/extremal-incentive-compatible-transfers": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 26,
    "fails": 0,
    "last_error": "",
@@ -4160,7 +4165,7 @@
    "fail_since": ""
   },
   "institute-for-policy-research-northwestern-ipr-working-paper": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ipr.northwestern.edu/our-work/working-papers/2026/wp-26-01.html": "2026-11-03T22:04:21Z",
     "https://www.ipr.northwestern.edu/our-work/working-papers/2026/wp-26-02.html": "2026-11-03T22:04:21Z",
@@ -4851,7 +4856,7 @@
     "https://www.ipr.northwestern.edu/our-work/working-papers/2002/ipr-wp-02-45.html": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 687,
    "fails": 0,
    "last_error": "",
@@ -4859,7 +4864,7 @@
    "fail_since": ""
   },
   "oxford-university-centre-for-business-taxation-cbt-working-p": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://oxfordtax.sbs.ox.ac.uk/wp21-07-jansky-cobham-faccio-garcia-kadet": "2026-11-03T22:04:21Z",
     "https://oxfordtax.sbs.ox.ac.uk/wp21-09-diamond-zodrow": "2026-11-03T22:04:21Z",
@@ -4867,7 +4872,7 @@
     "https://oxfordtax.sbs.ox.ac.uk/wp21-02-haufler-schindler": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 4,
    "fails": 0,
    "last_error": "",
@@ -4875,7 +4880,7 @@
    "fail_since": ""
   },
   "pension-research-council-wharton-prc-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7314099": "2026-11-03T22:04:21Z",
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7315578": "2026-11-03T22:04:21Z",
@@ -4961,7 +4966,7 @@
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3473626": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 82,
    "fails": 0,
    "last_error": "",
@@ -4969,7 +4974,7 @@
    "fail_since": ""
   },
   "puc-chile-documentos-de-trabajo-instituto-de-economia": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://economia.uc.cl/biblioteca/who-benefits-from-individual-property-rightsevidence-from-the-allotment-of-indigenous-reservations/": "2026-11-03T22:04:21Z",
     "https://economia.uc.cl/biblioteca/approximating-the-equilibrium-effects-of-informed-school-choice/": "2026-11-03T22:04:21Z",
@@ -4983,7 +4988,7 @@
     "https://economia.uc.cl/biblioteca/redistributive-taxation-incentives-and-the-intertemporal-evolution-of-human-capital/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -4991,7 +4996,7 @@
    "fail_since": ""
   },
   "saldru-university-of-cape-town-saldru-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://opensaldru.uct.ac.za/handle/11090/1065": "2026-11-03T22:04:21Z",
     "https://opensaldru.uct.ac.za/handle/11090/1062": "2026-11-03T22:04:21Z",
@@ -5035,7 +5040,7 @@
     "https://opensaldru.uct.ac.za/handle/11090/1021": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 40,
    "fails": 0,
    "last_error": "",
@@ -5043,7 +5048,7 @@
    "fail_since": ""
   },
   "siepr-stanford-siepr-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://siepr.stanford.edu/publications/working-paper/network-approach-geopolitics": "2026-11-03T22:04:21Z",
     "https://siepr.stanford.edu/publications/working-paper/job-loss-fears-first-years-generative-artificial-intelligence": "2026-11-03T22:04:21Z",
@@ -5067,7 +5072,7 @@
     "https://siepr.stanford.edu/publications/working-paper/politics-ai": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -5075,7 +5080,7 @@
    "fail_since": ""
   },
   "stanford-gsb-gsb-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.gsb.stanford.edu/faculty-research/working-papers/unified-theory-delegated-capital-management": "2026-11-03T22:04:21Z",
     "https://www.gsb.stanford.edu/faculty-research/working-papers/can-explanations-improve-recommendations-evidence-prediction": "2026-11-03T22:04:21Z",
@@ -5099,7 +5104,7 @@
     "https://www.gsb.stanford.edu/faculty-research/working-papers/behavioral-generative-agents-energy-operations": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -5107,7 +5112,7 @@
    "fail_since": ""
   },
   "sticerd-lse-sticerd-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://sticerd.lse.ac.uk/_new/publications/abstract/?index=12677": "2026-11-03T22:04:21Z",
     "https://sticerd.lse.ac.uk/_new/publications/abstract/?index=12608": "2026-11-03T22:04:21Z",
@@ -5410,7 +5415,7 @@
     "https://sticerd.lse.ac.uk/_new/publications/abstract/?index=1161": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 299,
    "fails": 0,
    "last_error": "",
@@ -5418,12 +5423,12 @@
    "fail_since": ""
   },
   "aea-assa-annual-meeting-session-papers-january": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.aeaweb.org/conference/2027/preliminary": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 1,
    "fails": 0,
    "last_error": "",
@@ -5431,13 +5436,13 @@
    "fail_since": ""
   },
   "jackson-hole-economic-policy-symposium-symposium-papers-augu": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/2026/": "2026-11-03T22:04:21Z",
     "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/2025/": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 2,
    "fails": 0,
    "last_error": "",
@@ -5445,7 +5450,7 @@
    "fail_since": ""
   },
   "nber-summer-institute-workshop-papers-july": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.nber.org/conferences/summer-institute-2026": "2026-11-03T22:04:21Z",
     "https://www.nber.org/conferences/summer-institute-2025": "2026-11-03T22:04:21Z",
@@ -5462,7 +5467,7 @@
     "https://www.nber.org/conferences/summer-institute-2014": "2026-11-03T22:04:21Z"
    },
    "first_ok": "2026-11-03T22:04:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 13,
    "fails": 0,
    "last_error": "",
@@ -5470,7 +5475,7 @@
    "fail_since": ""
   },
   "institute-for-research-on-poverty-wisconsin-irp-discussion-p": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.irp.wisc.edu/resource/a-decade-long-view-of-multidimensional-deprivation-in-the-united-states/": "2026-11-03T22:10:21Z",
     "https://www.irp.wisc.edu/resource/comparison-of-csped-participants-to-national-and-state-child-support-caseloads/": "2026-11-03T22:10:21Z",
@@ -5484,7 +5489,7 @@
     "https://www.irp.wisc.edu/resource/generational-changes-in-racial-inequality-in-occupational-attainment-1950-2010-a-synthetic-cohort-analysis/": "2026-11-03T22:10:21Z"
    },
    "first_ok": "2026-11-03T22:10:21Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -5492,7 +5497,7 @@
    "fail_since": ""
   },
   "iza-iza-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.iza.org/publications/dp/19056/how-is-ai-affecting-college-major-and-course-choices-evidence-from-finland": "2026-11-06T14:22:11Z",
     "https://www.iza.org/publications/dp/19055/life-cycle-effects-of-public-childcare-evidence-on-children-and-their-parents": "2026-11-06T14:22:11Z",
@@ -5546,7 +5551,7 @@
     "https://www.iza.org/publications/dp/19007/occupational-upgrading-and-within-occupation-wage-gaps-immigrant-earnings-integration-in-canada-2006-2021": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 50,
    "fails": 0,
    "last_error": "",
@@ -5554,7 +5559,7 @@
    "fail_since": ""
   },
   "ersa-ersa-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://ersawps.org/index.php/working-paper-series/article/view/410": "2026-11-06T14:22:11Z",
     "https://ersawps.org/index.php/working-paper-series/article/view/408": "2026-11-06T14:22:11Z",
@@ -5588,7 +5593,7 @@
     "https://ersawps.org/index.php/working-paper-series/article/view/283": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 30,
    "fails": 0,
    "last_error": "",
@@ -5596,7 +5601,7 @@
    "fail_since": ""
   },
   "ifpri-ifpri-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://hdl.handle.net/10568/186301": "2026-11-06T14:22:11Z",
     "https://hdl.handle.net/10568/186208": "2026-11-06T14:22:11Z",
@@ -5642,13 +5647,13 @@
    "first_ok": "2026-11-06T14:22:11Z",
    "last_ok": "2026-11-08T13:31:20Z",
    "last_count": 40,
-   "fails": 0,
-   "last_error": "",
+   "fails": 1,
+   "last_error": "the site's robots.txt could not be read, so the watcher stays away until a later run",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "2026-11-09T16:29:32Z"
   },
   "european-stability-mechanism-esm-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.esm.europa.eu/publications/global-stablecoins-2030-european-perspective": "2026-11-06T14:22:11Z",
     "https://www.esm.europa.eu/publications/too-much-good-thing-safe-assets-spillovers-and-fiscal-policy-coordination": "2026-11-06T14:22:11Z",
@@ -5656,7 +5661,7 @@
     "https://www.esm.europa.eu/publications/financial-market-interdependence-contagion-and-jumpy-risk-exposure": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 4,
    "fails": 0,
    "last_error": "",
@@ -5664,7 +5669,7 @@
    "fail_since": ""
   },
   "fao-fao-agricultural-development-economics-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://doi.org/10.4060/ce2059en": "2026-11-06T14:22:11Z",
     "https://doi.org/10.4060/ce1300en": "2026-11-06T14:22:11Z",
@@ -5688,7 +5693,7 @@
     "https://doi.org/10.4060/cd4616en": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -5696,7 +5701,7 @@
    "fail_since": ""
   },
   "eria-eria-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.eria.org/publications/fintech-innovations-across-emerging-markets--multiple-models--shared-lessons": "2026-11-06T14:22:11Z",
     "https://www.eria.org/publications/enhancing-india-s-trade-competitiveness-through-inclusive-liberalisation": "2026-11-06T14:22:11Z",
@@ -5706,7 +5711,7 @@
     "https://www.eria.org/publications/indonesian-service-sector-review--telecommunications": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 6,
    "fails": 0,
    "last_error": "",
@@ -5714,13 +5719,13 @@
    "fail_since": ""
   },
   "eria-eria-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.eria.org/publications/the-architecture-of-asean-s-external-free-trade-agreements--a-textual-similarity-analysis": "2026-11-06T14:22:11Z",
     "https://www.eria.org/publications/modelling-the-diffusion-of-electric-vehicles-in-asean-and-the-united-states": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 2,
    "fails": 0,
    "last_error": "",
@@ -5728,7 +5733,7 @@
    "fail_since": ""
   },
   "banque-de-france-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.banque-france.fr/en/publications-and-statistics/publications/authority-attention-and-origins-monetary-policy-surprises": "2026-11-06T14:22:11Z",
     "https://www.banque-france.fr/en/publications-and-statistics/publications/dsge-models-central-banks-progress-and-prospects": "2026-11-06T14:22:11Z",
@@ -5742,19 +5747,20 @@
     "https://www.banque-france.fr/en/publications-and-statistics/publications/stress-testing-european-banks-transition-risk-and-lending-behavior": "2026-11-06T14:22:11Z",
     "https://www.banque-france.fr/en/publications-and-statistics/publications/capital-pledgeability-and-credit-misallocation": "2026-11-06T14:22:11Z",
     "https://www.banque-france.fr/en/publications-and-statistics/publications/navigating-shocks-ripple-effects-shipping-route-closures": "2026-11-06T14:22:11Z",
-    "https://www.banque-france.fr/en/publications-and-statistics/publications/income-wealth-inequality-trickle-down-vs-capital-gains": "2026-11-07T13:10:27Z"
+    "https://www.banque-france.fr/en/publications-and-statistics/publications/income-wealth-inequality-trickle-down-vs-capital-gains": "2026-11-07T13:10:27Z",
+    "https://www.banque-france.fr/en/publications-and-statistics/publications/defi-ying-fed-monetary-policy-transmission-stablecoin-deposit-rates": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 12,
    "fails": 0,
    "last_error": "",
    "warned": "",
    "fail_since": "",
-   "last_new": "2026-11-07T13:10:27Z"
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "de-nederlandsche-bank-dnb-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.dnb.nl/en/publications/research-publications/working-paper-2026/876-features-that-drive-adoption-of-new-payment-methods-evidence-from-a-discrete-choice-experiment/": "2026-11-06T14:22:11Z",
     "https://www.dnb.nl/en/publications/research-publications/working-paper-2026/875-inflation-expectations-in-the-context-of-climate-change-and-the-green-transition/": "2026-11-06T14:22:11Z",
@@ -6356,7 +6362,7 @@
     "https://www.dnb.nl/en/publications/research-publications/working-paper-2011/277-communicating-bailout-policy-and-risk-taking-in-the-banking-industry/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 598,
    "fails": 0,
    "last_error": "",
@@ -6364,14 +6370,14 @@
    "fail_since": ""
   },
   "national-bank-of-belgium-nbb-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.nbb.be/en/publications-research/all-publications/different-unconventional-monetary-policies-different-stories-hank-perspective": "2026-11-06T14:22:11Z",
     "https://www.nbb.be/en/publications-research/all-publications/trade-frictions-and-small-open-economy-fiscal-multiplier": "2026-11-06T14:22:11Z",
     "https://www.nbb.be/en/publications-research/all-publications/macroeconomics-energy-transition-metal-bottlenecks": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 3,
    "fails": 0,
    "last_error": "",
@@ -6379,7 +6385,7 @@
    "fail_since": ""
   },
   "oesterreichische-nationalbank-oenb-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.oenb.at/en/daten-und-forschung/publikationen/publikationsreihen/working-paper/2026/working-paper-284.html": "2026-11-06T14:22:11Z",
     "https://www.oenb.at/en/daten-und-forschung/publikationen/publikationsreihen/working-paper/2026/working-paper-283.html": "2026-11-06T14:22:11Z",
@@ -6388,7 +6394,7 @@
     "https://www.oenb.at/en/daten-und-forschung/publikationen/publikationsreihen/working-paper/2026/working-paper-280.html": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 5,
    "fails": 0,
    "last_error": "",
@@ -6396,14 +6402,14 @@
    "fail_since": ""
   },
   "bank-of-japan-boj-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e12.htm": "2026-11-06T14:22:11Z",
     "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e14.htm": "2026-11-06T14:22:11Z",
     "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e13.htm": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 3,
    "fails": 0,
    "last_error": "",
@@ -6411,7 +6417,7 @@
    "fail_since": ""
   },
   "sveriges-riksbank-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.riksbank.se/globalassets/media/rapporter/working-papers/2026/no.-474-liquidity-capital-pledgeability-and-inflation-redistribution.pdf": "2026-11-06T14:22:11Z",
     "https://www.riksbank.se/globalassets/media/rapporter/working-papers/2026/no.-473-what-determines-banks-excess-demand-for-reserves.pdf": "2026-11-06T14:22:11Z",
@@ -6425,7 +6431,7 @@
     "https://www.riksbank.se/globalassets/media/rapporter/working-papers/2026/no.-465-the-role-of-firm-heterogeneity-for-the-transmission-of-aggregate-shocks.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -6433,7 +6439,7 @@
    "fail_since": ""
   },
   "central-bank-of-ireland-research-technical-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.centralbank.ie/docs/default-source/publications/research-technical-papers/11rt26-exchange-rate.pdf": "2026-11-06T14:22:11Z",
     "https://www.centralbank.ie/docs/default-source/publications/research-technical-papers/the-intangible-economy.pdf": "2026-11-06T14:22:11Z",
@@ -6754,7 +6760,7 @@
     "https://www.centralbank.ie/docs/default-source/publications/research-technical-papers/01rt96---estimating-investment-functions-for-a-small-scale-econometric-model-(frain-howlett-and-mcguire).pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 317,
    "fails": 0,
    "last_error": "",
@@ -6762,7 +6768,7 @@
    "fail_since": ""
   },
   "czech-national-bank-cnb-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cnb.cz/en/economic-research/research-publications/cnb-working-paper-series/Do-Inequality-and-Fiscal-Redistribution-Matter-When-Credit-Bites-Back/": "2026-11-06T14:22:11Z",
     "https://www.cnb.cz/en/economic-research/research-publications/cnb-working-paper-series/Bounded-Rationality-Monetary-Policy-and-the-Scars-of-Supply-Shocks-00001/": "2026-11-06T14:22:11Z",
@@ -6786,7 +6792,7 @@
     "https://www.cnb.cz/en/economic-research/research-publications/cnb-working-paper-series/Upgrading-the-Czech-National-Banks-Core-Forecasting-Model-g3/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -6794,7 +6800,7 @@
    "fail_since": ""
   },
   "banco-de-mexico-working-papers-documentos-de-investigacion": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.banxico.org.mx/publications-and-press/banco-de-mexico-working-papers/%7B1DC5023C-F0C1-13D2-62DA-711155D38E79%7D.pdf": "2026-11-06T14:22:11Z",
     "https://www.banxico.org.mx/publications-and-press/banco-de-mexico-working-papers/%7B5A819204-6E8D-DAD0-9328-4D365E654745%7D.pdf": "2026-11-06T14:22:11Z",
@@ -6808,7 +6814,7 @@
     "https://www.banxico.org.mx/publications-and-press/banco-de-mexico-working-papers/%7B3AC95C66-A9B4-FB32-B590-07637FC2E803%7D.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -6816,7 +6822,7 @@
    "fail_since": ""
   },
   "banco-de-la-republica-borradores-de-economia": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://repositorio.banrep.gov.co/items/bf0c289b-b097-4df8-ae80-736e703bdc09": "2026-11-06T14:22:11Z",
     "https://repositorio.banrep.gov.co/items/6316954f-f114-4cb4-a4de-854980f71caa": "2026-11-06T14:22:11Z",
@@ -6840,7 +6846,7 @@
     "https://repositorio.banrep.gov.co/items/f0e2389c-d4f6-4d24-a5f0-3a8b08027488": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -6848,7 +6854,7 @@
    "fail_since": ""
   },
   "banca-d-italia-temi-di-discussione-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1549/index.html": "2026-11-06T14:22:11Z",
     "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1548/index.html": "2026-11-06T14:22:11Z",
@@ -6858,7 +6864,7 @@
     "https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1544/index.html": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 6,
    "fails": 0,
    "last_error": "",
@@ -6866,7 +6872,7 @@
    "fail_since": ""
   },
   "magyar-nemzeti-bank-mnb-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.mnb.hu/en/publications/studies-publications-statistics/working-papers-1-1/wp-2026-4-lajos-tamas-szabo-almos-telegdy-andras-borsos-upstream-and-downstream-worker-mobility-along-the-supply-chain": "2026-11-06T14:22:11Z",
     "https://www.mnb.hu/en/publications/studies-publications-statistics/working-papers-1-1/wp-2026-3-beata-horvath-tamas-berki-livia-reka-onozo-csanad-temesvari-sentiment-based-financial-stress-index-for-hungary": "2026-11-06T14:22:11Z",
@@ -6970,7 +6976,7 @@
     "https://www.mnb.hu/en/publications/studies-publications-statistics/working-papers-1-1/wp-2009-1-zoltan-reppa-a-joint-macroeconomic-yield-curve-model-for-hungary": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 100,
    "fails": 0,
    "last_error": "",
@@ -6978,7 +6984,7 @@
    "fail_since": ""
   },
   "bank-of-russia-bank-of-russia-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cbr.ru/eng/ec_research/ser/wp_177/": "2026-11-06T14:22:11Z",
     "https://www.cbr.ru/eng/ec_research/ser/wp_176/": "2026-11-06T14:22:11Z",
@@ -7075,7 +7081,7 @@
     "https://www.cbr.ru/Content/Document/File/87559/wp_19_e.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 93,
    "fails": 0,
    "last_error": "",
@@ -7083,7 +7089,7 @@
    "fail_since": ""
   },
   "bank-of-thailand-pier-pier-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.pier.or.th/en/dp/266/": "2026-11-06T14:22:11Z",
     "https://www.pier.or.th/en/dp/265/": "2026-11-06T14:22:11Z",
@@ -7097,7 +7103,7 @@
     "https://www.pier.or.th/en/dp/256/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7105,7 +7111,7 @@
    "fail_since": ""
   },
   "u-s-census-bureau-center-for-economic-studies-ces-working-pa": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-64.html": "2026-11-06T14:22:11Z",
     "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-63.html": "2026-11-06T14:22:11Z",
@@ -7145,7 +7151,7 @@
     "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-29.html": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 36,
    "fails": 0,
    "last_error": "",
@@ -7153,7 +7159,7 @@
    "fail_since": ""
   },
   "fhfa-fhfa-staff-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.fhfa.gov/research/papers/wp2502": "2026-11-06T14:22:11Z",
     "https://www.fhfa.gov/research/papers/wp2501": "2026-11-06T14:22:11Z",
@@ -7165,7 +7171,7 @@
     "https://www.fhfa.gov/research/papers/wp2404": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 8,
    "fails": 0,
    "last_error": "",
@@ -7173,7 +7179,7 @@
    "fail_since": ""
   },
   "epa-ncee-working-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.epa.gov/environmental-economics/evidence-how-electronic-reporting-and-automated-auditing-affects-regulatory": "2026-11-06T14:22:11Z",
     "https://www.epa.gov/environmental-economics/tailings-dam-failures-and-natural-hazards-us": "2026-11-06T14:22:11Z",
@@ -7237,7 +7243,7 @@
     "https://www.epa.gov/environmental-economics/working-paper-how-did-air-quality-standards-affect-employment-us-power": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 60,
    "fails": 0,
    "last_error": "",
@@ -7245,7 +7251,7 @@
    "fail_since": ""
   },
   "statistics-norway-ssb-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ssb.no/en/natur-og-miljo/miljoregnskap/artikler/the-pigouvian-principle-with-consumption-taxes": "2026-11-06T14:22:11Z",
     "https://www.ssb.no/en/utenriksokonomi/utenrikshandel/artikler/beyond-constant-markups-identifying-the-export-elasticity-under-strategic-pricing": "2026-11-06T14:22:11Z",
@@ -7264,7 +7270,7 @@
     "https://www.ssb.no/en/inntekt-og-forbruk/inntekt-og-formue/artikler/measuring-long-run-wealth-inequality-empirical-results-for-norway-1912-2019": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 15,
    "fails": 0,
    "last_error": "",
@@ -7272,7 +7278,7 @@
    "fail_since": ""
   },
   "u-s-international-trade-commission-usitc-office-of-economics": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.usitc.gov/sites/default/files/publications/332/working_papers/supply_chain_resilience.pdf": "2026-11-06T14:22:11Z",
     "https://www.usitc.gov/sites/default/files/publications/332/working_papers/wp_posting_ai_paper_ferrantino_yuan_09102026_final.pdf": "2026-11-06T14:22:11Z",
@@ -7292,7 +7298,7 @@
     "https://www.usitc.gov/sites/default/files/publications/332/working_papers/2025_disaggregating_us_labor_statistics_for_the_gtap_computable_general_equilibrium_model.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 16,
    "fails": 0,
    "last_error": "",
@@ -7300,7 +7306,7 @@
    "fail_since": ""
   },
   "peterson-institute-piie-piie-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.piie.com/publications/working-papers/2026/long-term-projections-world-economy": "2026-11-06T14:22:11Z",
     "https://www.piie.com/publications/working-papers/2026/chinas-economic-security-growth-model-and-implications-us-china": "2026-11-06T14:22:11Z",
@@ -7314,7 +7320,7 @@
     "https://www.piie.com/publications/working-papers/2026/chinas-mercantilist-squeeze-developing-countries": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7322,7 +7328,7 @@
    "fail_since": ""
   },
   "levy-economics-institute-levy-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.levyinstitute.org/publications/fiscal-stance-and-macroeconomic-stabilization-evidence-from-indian-subnational-governments/": "2026-11-06T14:22:11Z",
     "https://www.levyinstitute.org/publications/finance-capitalist-evolution-and-structural-reform-a-backwards-perspective-on-hyman-p-minsky/": "2026-11-06T14:22:11Z",
@@ -7350,7 +7356,7 @@
     "https://www.levyinstitute.org/publications/money-in-shadow-banking-and-the-crypto-economy-a-chartalist-perspective/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 24,
    "fails": 0,
    "last_error": "",
@@ -7358,7 +7364,7 @@
    "fail_since": ""
   },
   "institute-for-new-economic-thinking-inet-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ineteconomics.org/research/research-papers/from-captive-bargaining-to-outside-options-re-anchoring-price-formation-in-us-hospitals": "2026-11-06T14:22:11Z",
     "https://www.ineteconomics.org/research/research-papers/inflation-beyond-borders-a-research-agenda": "2026-11-06T14:22:11Z",
@@ -7377,7 +7383,7 @@
     "https://www.ineteconomics.org/research/research-papers/historical-american-political-finance-data-at-the-national-archives-a-preface-to-the-inet-edition": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 15,
    "fails": 0,
    "last_error": "",
@@ -7385,7 +7391,7 @@
    "fail_since": ""
   },
   "niesr-niesr-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://niesr.ac.uk/publications/uk-fiscal-multipliers": "2026-11-06T14:22:11Z",
     "https://niesr.ac.uk/publications/macroeconomic-implications-carbon-taxation-and-revenue-recycling": "2026-11-06T14:22:11Z",
@@ -7399,7 +7405,7 @@
     "https://niesr.ac.uk/publications/liberalisation-and-financial-crises-postwar-oecd": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7407,7 +7413,7 @@
    "fail_since": ""
   },
   "cpb-netherlands-bureau-for-economic-policy-analysis-cpb-disc": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cpb.nl/en/publication/time-varying-impact-sectoral-and-aggregate-labor-market-tightness-wage-growth": "2026-11-06T14:22:11Z",
     "https://www.cpb.nl/en/publication/limited-means-limited-care-healthcare-expenditures-financially-constrained-netherlands": "2026-11-06T14:22:11Z",
@@ -7421,7 +7427,7 @@
     "https://www.cpb.nl/en/publication/impact-electric-vehicle-adoption-travel-mode-choices": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7429,7 +7435,7 @@
    "fail_since": ""
   },
   "feem-feem-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.feem.it/publications/latent-spatial-regimes-in-spatio-temporal-state-space-models-evidence-on-local-price-leadership-in-italian-fuel-markets/": "2026-11-06T14:22:11Z",
     "https://www.feem.it/publications/the-renewable-energy-growth-inequality-emissions-nexus-a-novel-wealth-based-inequality-indicator-and-a-reconsideration-of-the-environmental-kuznets-curve/": "2026-11-06T14:22:11Z",
@@ -7440,18 +7446,20 @@
     "https://www.feem.it/publications/distinguishing-drought-experiences-from-perception-to-measurement-and-their-significance-on-productivity-value-in-uganda/": "2026-11-06T14:22:11Z",
     "https://www.feem.it/publications/patent-valorization-and-business-performance-evidence-from-an-italian-public-policy/": "2026-11-06T14:22:11Z",
     "https://www.feem.it/publications/returns-to-green-tasks-in-europe-evidence-from-online-job-vacancies/": "2026-11-06T14:22:11Z",
-    "https://www.feem.it/publications/mapping-and-framing-circular-economy-in-the-sixth-assessment-report-of-the-intergovernmental-panel-on-climate-change-a-systematic-text-analysis/": "2026-11-06T14:22:11Z"
+    "https://www.feem.it/publications/mapping-and-framing-circular-economy-in-the-sixth-assessment-report-of-the-intergovernmental-panel-on-climate-change-a-systematic-text-analysis/": "2026-11-06T14:22:11Z",
+    "https://www.feem.it/publications/decarbonization-and-wholesale-price-impacts-of-res-and-bess-incentives-self-financing-modelling-of-fer-x-and-macse-policies-to-2030/": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "cepii-cepii-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=15152": "2026-11-06T14:22:11Z",
     "https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=15151": "2026-11-06T14:22:11Z",
@@ -7465,7 +7473,7 @@
     "https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14943": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7473,7 +7481,7 @@
    "fail_since": ""
   },
   "wifo-wifo-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.wifo.ac.at/en/publication/453967/": "2026-11-06T14:22:11Z",
     "https://www.wifo.ac.at/en/publication/453836/": "2026-11-06T14:22:11Z",
@@ -7487,7 +7495,7 @@
     "https://www.wifo.ac.at/en/publication/444611/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7495,7 +7503,7 @@
    "fail_since": ""
   },
   "ifn-ifn-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ifn.se/en/publications/working-papers/2026/1572/": "2026-11-06T14:22:11Z",
     "https://www.ifn.se/en/publications/working-papers/2026/1571/": "2026-11-06T14:22:11Z",
@@ -7522,15 +7530,15 @@
     "https://www.ifn.se/en/publications/working-papers/2026/1550/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
-   "last_count": 23,
+   "last_ok": "2026-11-09T16:29:32Z",
+   "last_count": 22,
    "fails": 0,
    "last_error": "",
    "warned": "",
    "fail_since": ""
   },
   "ifau-ifau-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ifau.se/en/Research/Publications/Working-papers/2026/education-providers-take-up-of-government-grants/": "2026-11-06T14:22:11Z",
     "https://www.ifau.se/en/Research/Publications/Working-papers/2026/strictness-in-the-evaluation-of-jobsearch-effort-and-employment-outcomes/": "2026-11-06T14:22:11Z",
@@ -7544,7 +7552,7 @@
     "https://www.ifau.se/en/Research/Publications/Working-papers/2026/old-and-new-jobs-understanding-wage-formation-sorting-and-firm-behavior/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7552,7 +7560,7 @@
    "fail_since": ""
   },
   "esri-ireland-esri-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.esri.ie/publications/assessing-the-impact-of-a-tax-on-household-wealth-in-ireland": "2026-11-06T14:22:11Z",
     "https://www.esri.ie/publications/experimental-evidence-on-heat-pump-and-retrofit-subsidies": "2026-11-06T14:22:11Z",
@@ -7563,18 +7571,20 @@
     "https://www.esri.ie/publications/a-hybrid-econometric-structural-model-with-trade-and-internationalisation-adjustments": "2026-11-06T14:22:11Z",
     "https://www.esri.ie/publications/economic-effects-of-the-us-trade-policy-changes-on-northern-irelands-trade": "2026-11-06T14:22:11Z",
     "https://www.esri.ie/publications/the-macroeconomic-impact-of-tariffs-on-northern-ireland": "2026-11-06T14:22:11Z",
-    "https://www.esri.ie/publications/developing-data-driven-damage-and-adaptation-functions-for-integrated-assessment": "2026-11-06T14:22:11Z"
+    "https://www.esri.ie/publications/developing-data-driven-damage-and-adaptation-functions-for-integrated-assessment": "2026-11-06T14:22:11Z",
+    "https://www.esri.ie/publications/measurement-matters-non-random-missing-data-and-indicator-divergence-in-energy-poverty": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "wiiw-wiiw-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://wiiw.ac.at/fiscal-consequences-of-climate-change-p-7722.html": "2026-11-06T14:22:11Z",
     "https://wiiw.ac.at/uneven-cuts-fiscal-consolidation-and-the-composition-of-government-spending-p-7720.html": "2026-11-06T14:22:11Z",
@@ -7588,7 +7598,7 @@
     "https://wiiw.ac.at/quantifying-the-trade-impact-of-sps-and-tbts-with-product-level-structural-gravity-p-7544.html": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -7596,7 +7606,7 @@
    "fail_since": ""
   },
   "ide-jetro-ide-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ide.go.jp/English/Publish/Reports/Dp/1017.html": "2026-11-06T14:22:11Z",
     "https://www.ide.go.jp/English/Publish/Reports/Dp/1015.html": "2026-11-06T14:22:11Z",
@@ -8570,7 +8580,7 @@
     "https://www.ide.go.jp/English/Publish/Reports/Dp/001.html": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 970,
    "fails": 0,
    "last_error": "",
@@ -8578,7 +8588,7 @@
    "fail_since": ""
   },
   "nipfp-nipfp-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.nipfp.org.in/publication-index-page/working-paper-index-page/artificial-intelligence-and-the-indian-sovereign-yield-curve-empirical-evidence-in-times-of-macroeconomic-turmoil/": "2026-11-06T14:22:11Z",
     "https://www.nipfp.org.in/publication-index-page/working-paper-index-page/credit-constraints-among-unincorporated-enterprises-in-india-an-empirical-investigation-using-unit-level-asuse-data/": "2026-11-06T14:22:11Z",
@@ -8611,7 +8621,7 @@
     "https://www.nipfp.org.in/publication-index-page/working-paper-index-page/social-spending-and-fiscal-policy-in-india-towards-an-alternate-macro-fiscal-framework-integrating-human-development/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 29,
    "fails": 0,
    "last_error": "",
@@ -8619,7 +8629,7 @@
    "fail_since": ""
   },
   "pide-pide-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://pide.org.pk/research/pakistans-groundwater-crisis-policy-lessons-and-a-framework-for-sustainable-resource-use/": "2026-11-06T14:22:11Z",
     "https://pide.org.pk/research/decoding-joblessness-in-pakistan-a-generational-and-temporal-analysis/": "2026-11-06T14:22:11Z",
@@ -8639,7 +8649,7 @@
     "https://pide.org.pk/research/return-to-education-in-pakistan-a-brief-overview/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 16,
    "fails": 0,
    "last_error": "",
@@ -8647,7 +8657,7 @@
    "fail_since": ""
   },
   "becker-friedman-institute-chicago-bfi-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://bfi.uchicago.edu/working-papers/the-economics-of-transitioning-away-from-fossil-fuels-a-contribution-to-the-cop30-presidency-roadmap/": "2026-11-06T14:22:11Z",
     "https://bfi.uchicago.edu/working-papers/the-price-and-the-quantity-of-bank-money/": "2026-11-06T14:22:11Z",
@@ -8661,7 +8671,7 @@
     "https://bfi.uchicago.edu/working-papers/venture-capital-and-customer-capital/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -8669,7 +8679,7 @@
    "fail_since": ""
   },
   "pier-penn-pier-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://economics.sas.upenn.edu/pier/working-paper/2026/coverage-guarantees-ambiguity-sets-coherent-decision-making-under": "2026-11-06T14:22:11Z",
     "https://economics.sas.upenn.edu/pier/working-paper/2026/finite-dimensional-approach-optimal-dynamic-information-acquisition": "2026-11-06T14:22:11Z",
@@ -8723,7 +8733,7 @@
     "https://economics.sas.upenn.edu/pier/working-paper/2024/over-and-underreaction-information-belief-updating-cognitive-constraints": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 50,
    "fails": 0,
    "last_error": "",
@@ -8731,7 +8741,7 @@
    "fail_since": ""
   },
   "centre-for-economic-performance-lse-cep-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12690": "2026-11-06T14:22:11Z",
     "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12689": "2026-11-06T14:22:11Z",
@@ -8752,18 +8762,20 @@
     "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12570": "2026-11-06T14:22:11Z",
     "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12569": "2026-11-06T14:22:11Z",
     "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12545": "2026-11-06T14:22:11Z",
-    "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12525": "2026-11-06T14:22:11Z"
+    "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12525": "2026-11-06T14:22:11Z",
+    "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12692": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "university-of-cambridge-cambridge-working-papers-in-economic": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.econ.cam.ac.uk/publications/cwpe/2685": "2026-11-06T14:22:11Z",
     "https://www.econ.cam.ac.uk/publications/cwpe/2684": "2026-11-06T14:22:11Z",
@@ -8867,7 +8879,7 @@
     "https://www.econ.cam.ac.uk/publications/cwpe/2569": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 100,
    "fails": 0,
    "last_error": "",
@@ -8875,7 +8887,7 @@
    "fail_since": ""
   },
   "university-of-warwick-warwick-economics-research-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1637-harkins.pdf": "2026-11-06T14:22:11Z",
     "https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1638-zhong.pdf": "2026-11-06T14:22:11Z",
@@ -8918,7 +8930,7 @@
     "https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1601-arulampalam.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 39,
    "fails": 0,
    "last_error": "",
@@ -8926,7 +8938,7 @@
    "fail_since": ""
   },
   "toulouse-school-of-economics-tse-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.tse-fr.eu/publications/working-paper/school-choice-and-educational-inputs-unintended-consequences-targeted": "2026-11-06T14:22:11Z",
     "https://www.tse-fr.eu/publications/working-paper/when-economists-disagree-beliefs-values-and-policy-endorsements": "2026-11-06T14:22:11Z",
@@ -8942,7 +8954,7 @@
     "https://www.tse-fr.eu/publications/working-paper/task-architecture-and-learning-coarse-performance": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 12,
    "fails": 0,
    "last_error": "",
@@ -8950,7 +8962,7 @@
    "fail_since": ""
   },
   "sciences-po-economics-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://sciencespo.hal.science/hal-05796616": "2026-11-06T14:22:11Z",
     "https://sciencespo.hal.science/hal-05760977": "2026-11-06T14:22:11Z",
@@ -9013,7 +9025,7 @@
     "https://hal-sciencespo.archives-ouvertes.fr/hal-03393113": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 59,
    "fails": 0,
    "last_error": "",
@@ -9021,7 +9033,7 @@
    "fail_since": ""
   },
   "tinbergen-institute-ti-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://tinbergen.nl/discussion-paper/6551/26-090-iii-joint-modeling-of-sectoral-inflation-dynamics-in-eurozone-countries": "2026-11-06T14:22:11Z",
     "https://tinbergen.nl/discussion-paper/6550/26-089-v-age-and-productivity-in-high-skilled-work-goal-scoring-in-the-english-premier-league": "2026-11-06T14:22:11Z",
@@ -9045,7 +9057,7 @@
     "https://tinbergen.nl/discussion-paper/6532/26-071-vii-a-subsidization-dilemma-the-effect-of-shadow-cost-of-public-funds-and-consumer-distribution": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 20,
    "fails": 0,
    "last_error": "",
@@ -9053,7 +9065,7 @@
    "fail_since": ""
   },
   "unu-merit-maastricht-unu-merit-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://unu-merit.nl/publications/abstract.php?id=10451": "2026-11-06T14:22:11Z",
     "https://unu-merit.nl/publications/abstract.php?id=10444": "2026-11-06T14:22:11Z",
@@ -9067,18 +9079,20 @@
     "https://unu-merit.nl/publications/abstract.php?id=9982": "2026-11-06T14:22:11Z",
     "https://unu-merit.nl/publications/abstract.php?id=9977": "2026-11-06T14:22:11Z",
     "https://unu-merit.nl/publications/abstract.php?id=9975": "2026-11-06T14:22:11Z",
-    "https://unu-merit.nl/publications/abstract.php?id=9969": "2026-11-06T14:22:11Z"
+    "https://unu-merit.nl/publications/abstract.php?id=9969": "2026-11-06T14:22:11Z",
+    "https://unu-merit.nl/publications/abstract.php?id=10470": "2026-11-09T16:29:32Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
-   "last_count": 13,
+   "last_ok": "2026-11-09T16:29:32Z",
+   "last_count": 14,
    "fails": 0,
    "last_error": "",
    "warned": "",
-   "fail_since": ""
+   "fail_since": "",
+   "last_new": "2026-11-09T16:29:32Z"
   },
   "cemfi-madrid-cemfi-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cemfi.es/ftp/wp/2601.pdf": "2026-11-06T14:22:11Z",
     "https://www.cemfi.es/ftp/wp/2602.pdf": "2026-11-06T14:22:11Z",
@@ -9097,7 +9111,7 @@
     "https://www.cemfi.es/ftp/wp/2616.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 15,
    "fails": 0,
    "last_error": "",
@@ -9105,7 +9119,7 @@
    "fail_since": ""
   },
   "cer-eth-eth-zurich-cer-eth-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://ethz.ch/content/dam/ethz/special-interest/mtec/cer-eth/cer-eth-dam/documents/working-papers/wp-26-409.pdf": "2026-11-06T14:22:11Z",
     "https://ethz.ch/content/dam/ethz/special-interest/mtec/cer-eth/cer-eth-dam/documents/working-papers/wp-26-408.pdf": "2026-11-06T14:22:11Z",
@@ -9405,7 +9419,7 @@
     "https://ethz.ch/content/dam/ethz/special-interest/mtec/cer-eth/cer-eth-dam/documents/working-papers/WP-09-110.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 296,
    "fails": 0,
    "last_error": "",
@@ -9413,7 +9427,7 @@
    "fail_since": ""
   },
   "center-for-retirement-research-boston-college-crr-working-pa": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://crr.bc.edu/how-do-medicaid-policies-for-home-and-community-based-services-impact-the-jobs-and-wages-of-the-formal-care-workforce/": "2026-11-06T14:22:11Z",
     "https://crr.bc.edu/how-much-do-older-workers-value-retiree-health-insurance-2/": "2026-11-06T14:22:11Z",
@@ -9429,7 +9443,7 @@
     "https://crr.bc.edu/ordinary-lives-insurance-and-savings-in-america-1861-to-1941/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 12,
    "fails": 0,
    "last_error": "",
@@ -9437,7 +9451,7 @@
    "fail_since": ""
   },
   "irle-berkeley-irle-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://irle.berkeley.edu/publications/working-papers/takeup-and-behavioral-responses-of-expanding-unemployment-assistance/": "2026-11-06T14:22:11Z",
     "https://irle.berkeley.edu/publications/working-papers/how-use-of-ceqa-applied-to-advanced-manufacturing-improves-broad-outcomes/": "2026-11-06T14:22:11Z",
@@ -9449,7 +9463,7 @@
     "https://irle.berkeley.edu/publications/working-papers/restaurant-employment-minimum-wages-and-border-discontinuities/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 8,
    "fails": 0,
    "last_error": "",
@@ -9457,7 +9471,7 @@
    "fail_since": ""
   },
   "iser-essex-iser-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.iser.essex.ac.uk/research/publications/working-papers/cempa/cempa12-26": "2026-11-06T14:22:11Z",
     "https://www.iser.essex.ac.uk/research/publications/working-papers/iser/2026-05": "2026-11-06T14:22:11Z",
@@ -9467,7 +9481,7 @@
     "https://www.iser.essex.ac.uk/research/publications/working-papers/iser/2026-03": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 6,
    "fails": 0,
    "last_error": "",
@@ -9475,7 +9489,7 @@
    "fail_since": ""
   },
   "centre-for-competition-policy-uea-ccp-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://competitionpolicy.ac.uk/publications/innovation-in-competition-policy-object-or-means/": "2026-11-06T14:22:11Z",
     "https://competitionpolicy.ac.uk/publications/competition-policy-industrial-policy-and-the-allocative-wedge-rebuilding-hungary-s/": "2026-11-06T14:22:11Z",
@@ -9491,7 +9505,7 @@
     "https://competitionpolicy.ac.uk/publications/from-economic-power-to-political-power/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 12,
    "fails": 0,
    "last_error": "",
@@ -9499,7 +9513,7 @@
    "fail_since": ""
   },
   "cedex-nottingham-cedex-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.nottingham.ac.uk/cedex/news/papers/2026-08.aspx": "2026-11-06T14:22:11Z",
     "https://www.nottingham.ac.uk/cedex/news/papers/2026-07.aspx": "2026-11-06T14:22:11Z",
@@ -9759,7 +9773,7 @@
     "https://www.nottingham.ac.uk/cedex/news/papers/2010-01.aspx": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 256,
    "fails": 0,
    "last_error": "",
@@ -9767,7 +9781,7 @@
    "fail_since": ""
   },
   "crc-tr-224-bonn-and-mannheim-crc-tr-224-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.crctr224.de/research/discussion-papers/archive/dp795": "2026-11-06T14:22:11Z",
     "https://www.crctr224.de/research/discussion-papers/archive/dp794": "2026-11-06T14:22:11Z",
@@ -10565,7 +10579,7 @@
     "https://www.crctr224.de/research/discussion-papers/archive/dp001": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 794,
    "fails": 0,
    "last_error": "",
@@ -10573,7 +10587,7 @@
    "fail_since": ""
   },
   "eu-tax-observatory-eu-tax-observatory-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://taxobservatory.eu/eutax-publication/measurement-matters-how-profit-measurement-affects-profit-shifting/": "2026-11-06T14:22:11Z",
     "https://taxobservatory.eu/eutax-publication/when-bankers-become-informants-behavioral-effects-of-automatic-exchange-of-information/": "2026-11-06T14:22:11Z",
@@ -10585,7 +10599,7 @@
     "https://taxobservatory.eu/eutax-publication/who-owns-offshore-real-estate-evidence-from-dubai/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 8,
    "fails": 0,
    "last_error": "",
@@ -10593,7 +10607,7 @@
    "fail_since": ""
   },
   "world-inequality-lab-world-inequality-lab-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://wid.world/document/world-inequality-lab-working-paper-2026-20/": "2026-11-06T14:22:11Z",
     "https://wid.world/document/preferences-for-inheritance-taxation-in-europe-experimental-evidence-on-vertical-equity-and-public-debt-world-inequality-lab-working-paper-2026-19/": "2026-11-06T14:22:11Z",
@@ -10850,7 +10864,7 @@
     "https://wid.world/document/wid_working_paper_2014_1_uruguay/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 253,
    "fails": 0,
    "last_error": "",
@@ -10858,7 +10872,7 @@
    "fail_since": ""
   },
   "swiss-finance-institute-sfi-research-paper-series": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.sfi.ch/en/publications/n-26-76-greening-for-nature-corporate-financing-responses-to-biodiversity-shocks": "2026-11-06T14:22:11Z",
     "https://www.sfi.ch/en/publications/n-26-75-monetary-policy-uncertainty-and-bank-credit-allocation": "2026-11-06T14:22:11Z",
@@ -10877,7 +10891,7 @@
     "https://www.sfi.ch/en/publications/n-26-62-asymmetric-price-competition-on-hybrid-platforms-theory-and-evidence-from-amazon": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 15,
    "fails": 0,
    "last_error": "",
@@ -10885,7 +10899,7 @@
    "fail_since": ""
   },
   "cirje-university-of-tokyo-cirje-f-series-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cirje.e.u-tokyo.ac.jp/research/dp/2026/2026cf1281ab.html": "2026-11-06T14:22:11Z",
     "https://www.cirje.e.u-tokyo.ac.jp/research/dp/2026/2026cf1280ab.html": "2026-11-06T14:22:11Z",
@@ -10907,7 +10921,7 @@
     "https://www.cirje.e.u-tokyo.ac.jp/research/dp/2026/2026cf1282ab.html": "2026-11-07T13:10:27Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 18,
    "fails": 0,
    "last_error": "",
@@ -10916,7 +10930,7 @@
    "last_new": "2026-11-07T13:10:27Z"
   },
   "institute-of-economic-research-hitotsubashi-ier-discussion-p": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www1.ier.hit-u.ac.jp/wp-content/uploads/2026/09/DPS-A784.pdf": "2026-11-06T14:22:11Z",
     "https://www1.ier.hit-u.ac.jp/wp-content/uploads/2026/09/DPS-A783.pdf": "2026-11-06T14:22:11Z",
@@ -10945,7 +10959,7 @@
     "https://www1.ier.hit-u.ac.jp/wp-content/uploads/2026/01/DPS-A759_r.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 25,
    "fails": 0,
    "last_error": "",
@@ -10953,7 +10967,7 @@
    "fail_since": ""
   },
   "iser-osaka-university-iser-discussion-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.iser.osaka-u.ac.jp/static/resources/docs/dp/DP1324.pdf": "2026-11-06T14:22:11Z",
     "https://www.iser.osaka-u.ac.jp/static/resources/docs/dp/DP1323.pdf": "2026-11-06T14:22:11Z",
@@ -10981,7 +10995,7 @@
     "https://www.iser.osaka-u.ac.jp/static/resources/docs/dp/DP1301.pdf": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 24,
    "fails": 0,
    "last_error": "",
@@ -10989,7 +11003,7 @@
    "fail_since": ""
   },
   "puc-rio-puc-rio-textos-para-discussao": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.econ.puc-rio.br/texto-para-discussao/?id=101520&tipo=5": "2026-11-06T14:22:11Z",
     "https://www.econ.puc-rio.br/texto-para-discussao/?id=101494&tipo=5": "2026-11-06T14:22:11Z",
@@ -11003,7 +11017,7 @@
     "https://www.econ.puc-rio.br/texto-para-discussao/?id=101451&tipo=5": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -11011,7 +11025,7 @@
    "fail_since": ""
   },
   "cedlas-universidad-nacional-de-la-plata-cedlas-working-paper": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.cedlas.econo.unlp.edu.ar/wp/en/no-385-en/": "2026-11-06T14:22:11Z",
     "https://www.cedlas.econo.unlp.edu.ar/wp/en/no-384-october-2026-jorge-m-aguero-julian-pierino-pedrazzi-viviana-m-e-perego-javier-romero/": "2026-11-06T14:22:11Z",
@@ -11025,7 +11039,7 @@
     "https://www.cedlas.econo.unlp.edu.ar/wp/en/no-376-july-2026-ines-berniell-lucila-berniell-victoria-castillo-belen-canuelo-dolores-de-la-mata-gerardo-garcia-oro-nestor-grion-federico-juncosa-luis-laguinge/": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -11033,7 +11047,7 @@
    "fail_since": ""
   },
   "pucp-pucp-documentos-de-trabajo-departamento-de-economia": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://departamento-economia.pucp.edu.pe/documentos-de-trabajo/fast-approximate-bayesian-inference-for-heavy-tailed-stochastic-volatility-in-mean-models": "2026-11-06T14:22:11Z",
     "https://departamento-economia.pucp.edu.pe/documentos-de-trabajo/forecasting-perus-gdp-growth-and-inflation-using-tvp-varma-sv-models": "2026-11-06T14:22:11Z",
@@ -11047,7 +11061,7 @@
     "https://departamento-economia.pucp.edu.pe/documentos-de-trabajo/perceptions-of-own-social-class-and-local-affluence-effects-on-preferences-for-redistribution": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 10,
    "fails": 0,
    "last_error": "",
@@ -11055,7 +11069,7 @@
    "fail_since": ""
   },
   "stellenbosch-university-stellenbosch-economic-working-papers": {
-   "last_try": "2026-11-08T13:31:20Z",
+   "last_try": "2026-11-09T16:29:32Z",
    "seen": {
     "https://www.ekon.sun.ac.za/wpapers/2026/wp092026": "2026-11-06T14:22:11Z",
     "https://www.ekon.sun.ac.za/wpapers/2026/wp082026": "2026-11-06T14:22:11Z",
@@ -11068,7 +11082,7 @@
     "https://www.ekon.sun.ac.za/wpapers/2026/wp012026": "2026-11-06T14:22:11Z"
    },
    "first_ok": "2026-11-06T14:22:11Z",
-   "last_ok": "2026-11-08T13:31:20Z",
+   "last_ok": "2026-11-09T16:29:32Z",
    "last_count": 9,
    "fails": 0,
    "last_error": "",
@@ -11077,6 +11091,70 @@
   }
  },
  "items": [
+  {
+   "id": "https://www.ecgi.global/publications/working-papers/interlocking-directorate-firm-value-and-product-market-competition",
+   "name": "ECGI",
+   "series": "ECGI Working Papers (Finance; Law)",
+   "title": "Interlocking Directorate, Firm Value, and Product Market Competition",
+   "url": "https://www.ecgi.global/publications/working-papers/interlocking-directorate-firm-value-and-product-market-competition",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://www.theigc.org/publications/can-participatory-community-based-targeting-improve-legitimacy-perceived-fairness",
+   "name": "International Growth Centre",
+   "series": "IGC Working Papers",
+   "title": "Can participatory community-based targeting improve legitimacy, perceived fairness, trust, and social cohesion? Experimental evidence from Ethiopia",
+   "url": "https://www.theigc.org/publications/can-participatory-community-based-targeting-improve-legitimacy-perceived-fairness",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/importers-big-and-small.html",
+   "name": "EBRD",
+   "series": "EBRD Working Papers",
+   "title": "Importers Big and Small: The Heterogeneous Impacts of U.S.-China Tariffs on Sourcing and Prices",
+   "url": "https://www.ebrd.com/home/news-and-events/publications/economics/working-papers/importers-big-and-small.html",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://www.banque-france.fr/en/publications-and-statistics/publications/defi-ying-fed-monetary-policy-transmission-stablecoin-deposit-rates",
+   "name": "Banque de France",
+   "series": "Working Papers",
+   "title": "DeFi-ying the Fed? Monetary Policy Transmission to Stablecoin Deposit Rates",
+   "url": "https://www.banque-france.fr/en/publications-and-statistics/publications/defi-ying-fed-monetary-policy-transmission-stablecoin-deposit-rates",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://www.feem.it/publications/decarbonization-and-wholesale-price-impacts-of-res-and-bess-incentives-self-financing-modelling-of-fer-x-and-macse-policies-to-2030/",
+   "name": "FEEM",
+   "series": "FEEM Working Papers",
+   "title": "Decarbonization and wholesale price impacts of RES and BESS incentives: self-financing modelling of FER-X and MACSE policies to 2030",
+   "url": "https://www.feem.it/publications/decarbonization-and-wholesale-price-impacts-of-res-and-bess-incentives-self-financing-modelling-of-fer-x-and-macse-policies-to-2030/",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://www.esri.ie/publications/measurement-matters-non-random-missing-data-and-indicator-divergence-in-energy-poverty",
+   "name": "ESRI (Ireland)",
+   "series": "ESRI Working Papers",
+   "title": "Measurement matters: Non-random missing data and indicator divergence in energy poverty",
+   "url": "https://www.esri.ie/publications/measurement-matters-non-random-missing-data-and-indicator-divergence-in-energy-poverty",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12692",
+   "name": "Centre for Economic Performance (LSE)",
+   "series": "CEP Discussion Papers",
+   "title": "Migrant entrepreneurship, high-growth firms and cities",
+   "url": "https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12692",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
+  {
+   "id": "https://unu-merit.nl/publications/abstract.php?id=10470",
+   "name": "UNU-MERIT (Maastricht)",
+   "series": "UNU-MERIT Working Papers",
+   "title": "Age, Education, and Occupational Gradients in Artificial Intelligence Anxiety",
+   "url": "https://unu-merit.nl/publications/abstract.php?id=10470",
+   "first_seen": "2026-11-09T16:29:32Z"
+  },
   {
    "id": "urn:econ-paper-watcher:warning:caf-caf-working-papers:2026-11-08",
    "kind": "warning",
@@ -11350,5 +11428,5 @@
    "first_seen": "2026-11-04T14:37:26Z"
   }
  ],
- "last_run": "2026-11-08T13:31:20Z"
+ "last_run": "2026-11-09T16:29:32Z"
 }
