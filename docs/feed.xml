@@ -4,7 +4,63 @@
   <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-13T14:40:02Z</updated>
+  <updated>2026-11-14T13:37:39Z</updated>
+  <entry>
+    <title>Fedesarrollo has failed 3 runs in a row: nothing on the page matches scope &#x27;.anaquel&#x27;; its layout may have changed</title>
+    <link href="https://www.fedesarrollo.org.co/p/publicaciones/documentos-de-trabajo"/>
+    <id>urn:econ-paper-watcher:warning:fedesarrollo-documentos-de-trabajo:2026-11-14</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>New economics working papers: econ-paper-watcher</name></author>
+    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
+  </entry>
+  <entry>
+    <title>Peterson Institute (PIIE): Debt sustainability and the range of multiple equilibria</title>
+    <link href="https://www.piie.com/publications/working-papers/2026/debt-sustainability-and-range-multiple-equilibria"/>
+    <id>https://www.piie.com/publications/working-papers/2026/debt-sustainability-and-range-multiple-equilibria</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>Peterson Institute (PIIE)</name></author>
+    <summary>PIIE Working Papers. First seen 2026-11-14.</summary>
+  </entry>
+  <entry>
+    <title>CReAM (UCL): Locked In by Generosity: Place-Based Unemployment Insurance and the Spatial Allocation of Labor</title>
+    <link href="https://www.rfberlin.com/network-paper/locked-in-by-generosity-place-based-unemployment-insurance-and-the-spatial-allocation-of-labor/"/>
+    <id>https://www.rfberlin.com/network-paper/locked-in-by-generosity-place-based-unemployment-insurance-and-the-spatial-allocation-of-labor/</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>CReAM (UCL)</name></author>
+    <summary>CReAM Discussion Papers. First seen 2026-11-14.</summary>
+  </entry>
+  <entry>
+    <title>CReAM (UCL): Does Pension Coverage Predict Fertility? International Evidence From OLS, Fixed Effects and Machine Learning Random Forests</title>
+    <link href="https://www.rfberlin.com/network-paper/does-pension-coverage-predict-fertility-international-evidence-from-ols-fixed-effects-and-machine-learning-random-forests/"/>
+    <id>https://www.rfberlin.com/network-paper/does-pension-coverage-predict-fertility-international-evidence-from-ols-fixed-effects-and-machine-learning-random-forests/</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>CReAM (UCL)</name></author>
+    <summary>CReAM Discussion Papers. First seen 2026-11-14.</summary>
+  </entry>
+  <entry>
+    <title>CReAM (UCL): Job Sorting and the Labor Market Effects of a Criminal Record</title>
+    <link href="https://www.rfberlin.com/network-paper/job-sorting-and-the-labor-market-effects-of-a-criminal-record/"/>
+    <id>https://www.rfberlin.com/network-paper/job-sorting-and-the-labor-market-effects-of-a-criminal-record/</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>CReAM (UCL)</name></author>
+    <summary>CReAM Discussion Papers. First seen 2026-11-14.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Clustered Inference for Dyadic Data with Dependent Latent Positions</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/clustered-inference-dyadic-data-dependent-latent-positions"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/clustered-inference-dyadic-data-dependent-latent-positions</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-14.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Opinions Before Evidence: Dynamic Information Quality and Source Familiarity</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/opinions-evidence-dynamic-information-quality-and-source-familiarity"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/opinions-evidence-dynamic-information-quality-and-source-familiarity</id>
+    <updated>2026-11-14T13:37:39Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-14.</summary>
+  </entry>
   <entry>
     <title>IZA: Advancing the Study of Economic Exploitation and Inequality: Introducing a New Scholarly Forum</title>
     <link href="https://www.iza.org/publications/dp/19091/advancing-the-study-of-economic-exploitation-and-inequality-introducing-a-new-scholarly-forum"/>
