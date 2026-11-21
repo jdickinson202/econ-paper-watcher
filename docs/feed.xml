@@ -4,7 +4,87 @@
   <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-20T15:31:43Z</updated>
+  <updated>2026-11-21T14:43:40Z</updated>
+  <entry>
+    <title>International Growth Centre: The urban transportation problem: Accessibility in 1,100 cities and 400,000 neighbourhoods</title>
+    <link href="https://www.theigc.org/publications/urban-transportation-problem-accessibility-1100-cities-and-400000-neighbourhoods"/>
+    <id>https://www.theigc.org/publications/urban-transportation-problem-accessibility-1100-cities-and-400000-neighbourhoods</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>International Growth Centre</name></author>
+    <summary>IGC Working Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>International Growth Centre: Startups in Africa</title>
+    <link href="https://www.theigc.org/publications/startups-africa-0"/>
+    <id>https://www.theigc.org/publications/startups-africa-0</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>International Growth Centre</name></author>
+    <summary>IGC Working Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>Banco de la República: From Climate Shocks to Financial Risk: A Framework Applied to the Colombian Hydropower Sector</title>
+    <link href="https://repositorio.banrep.gov.co/items/1b9a3169-cbe3-4003-84b0-102db0611be0"/>
+    <id>https://repositorio.banrep.gov.co/items/1b9a3169-cbe3-4003-84b0-102db0611be0</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>Banco de la República</name></author>
+    <summary>Borradores de Economía. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>University of Warwick: Who pays for AI?</title>
+    <link href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1640-datta-et-al.pdf"/>
+    <id>https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1640-datta-et-al.pdf</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>University of Warwick</name></author>
+    <summary>Warwick Economics Research Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>University of Warwick: Equilibrium Impact of Credit Frictions: Evidence from Default Risk Using Firm-Level Data</title>
+    <link href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1642-lambert-et-al.pdf"/>
+    <id>https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1642-lambert-et-al.pdf</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>University of Warwick</name></author>
+    <summary>Warwick Economics Research Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>University of Warwick: Weathering the Energy Crisis: Can Tailored Information to Local Governments and Media Spur Climate Action?</title>
+    <link href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1641-gazze-et-al.pdf"/>
+    <id>https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1641-gazze-et-al.pdf</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>University of Warwick</name></author>
+    <summary>Warwick Economics Research Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>University of Warwick: Measuring the Prevalence and Direction of Innovation: A Pilot Approach using LLMs</title>
+    <link href="https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1643-lambert-et-al.pdf"/>
+    <id>https://warwick.ac.uk/fac/soc/economics/research/workingpapers/2026/twerp_1643-lambert-et-al.pdf</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>University of Warwick</name></author>
+    <summary>Warwick Economics Research Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Inference in Dynamic Models for Panel Data Using The Moving Block Bootstrap</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/inference-dynamic-models-panel-data-using-moving-block-bootstrap"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/inference-dynamic-models-panel-data-using-moving-block-bootstrap</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Veterinarian shortage in France with a spatial supply-demand accessibility index</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/veterinarian-shortage-france-spatial-supply-demand-accessibility-index"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/veterinarian-shortage-france-spatial-supply-demand-accessibility-index</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-21.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: AI and Cybersecurity: An Equilibrium Approach</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/ai-and-cybersecurity-equilibrium-approach"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/ai-and-cybersecurity-equilibrium-approach</id>
+    <updated>2026-11-21T14:43:40Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-21.</summary>
+  </entry>
   <entry>
     <title>ECGI: The Political Consequences of Stakeholder Governance</title>
     <link href="https://www.ecgi.global/publications/working-papers/the-political-consequences-of-stakeholder-governance"/>
