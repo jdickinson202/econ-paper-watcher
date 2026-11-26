@@ -4,7 +4,79 @@
   <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-25T17:18:52Z</updated>
+  <updated>2026-11-26T16:59:07Z</updated>
+  <entry>
+    <title>CAF: Poder de mercado y adopción de tecnologías digitales en América Latina</title>
+    <link href="https://scioteca.caf.com/handle/123456789/2752"/>
+    <id>https://scioteca.caf.com/handle/123456789/2752</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>CAF</name></author>
+    <summary>CAF Working Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>IFN: When Will We Know? Detecting an Acceleration of AI Capabilities from the Public Record</title>
+    <link href="https://www.ifn.se/en/publications/working-papers/2026/1576/"/>
+    <id>https://www.ifn.se/en/publications/working-papers/2026/1576/</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>IFN</name></author>
+    <summary>IFN Working Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>PUC Chile: Asset Allocation and Pension Risk Hedging</title>
+    <link href="https://economia.uc.cl/biblioteca/asset-allocation-and-pension-risk-hedging/"/>
+    <id>https://economia.uc.cl/biblioteca/asset-allocation-and-pension-risk-hedging/</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>PUC Chile</name></author>
+    <summary>Documentos de Trabajo (Instituto de Economía). First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>Centre for Economic Performance (LSE): Why surveys can hide rising inequality (and how to correct for it)</title>
+    <link href="https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12722"/>
+    <id>https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=12722</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>Centre for Economic Performance (LSE)</name></author>
+    <summary>CEP Discussion Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>Tinbergen Institute: Predicting Inflation Using Observation-Driven Neural Network Ensembles</title>
+    <link href="https://tinbergen.nl/discussion-paper/6558/26-097-iii-predicting-inflation-using-observation-driven-neural-network-ensembles"/>
+    <id>https://tinbergen.nl/discussion-paper/6558/26-097-iii-predicting-inflation-using-observation-driven-neural-network-ensembles</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>Tinbergen Institute</name></author>
+    <summary>TI Discussion Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>Tinbergen Institute: Economic Tail Risk Dynamics: Using Panel Data and Double-Pooling</title>
+    <link href="https://tinbergen.nl/discussion-paper/6557/26-096-iii-economic-tail-risk-dynamics-using-panel-data-and-double-pooling"/>
+    <id>https://tinbergen.nl/discussion-paper/6557/26-096-iii-economic-tail-risk-dynamics-using-panel-data-and-double-pooling</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>Tinbergen Institute</name></author>
+    <summary>TI Discussion Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>Tinbergen Institute: Sharpe Ratio Inference after Machine Learning</title>
+    <link href="https://tinbergen.nl/discussion-paper/6556/26-095-iii-sharpe-ratio-inference-after-machine-learning"/>
+    <id>https://tinbergen.nl/discussion-paper/6556/26-095-iii-sharpe-ratio-inference-after-machine-learning</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>Tinbergen Institute</name></author>
+    <summary>TI Discussion Papers. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>Institute of Economic Research (Hitotsubashi): Recent Developments in Axiomatic Studies of Marxian Exploitation Theory</title>
+    <link href="https://www1.ier.hit-u.ac.jp/wp-content/uploads/2026/11/DPS-A785.pdf"/>
+    <id>https://www1.ier.hit-u.ac.jp/wp-content/uploads/2026/11/DPS-A785.pdf</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>Institute of Economic Research (Hitotsubashi)</name></author>
+    <summary>IER Discussion Paper Series. First seen 2026-11-26.</summary>
+  </entry>
+  <entry>
+    <title>ISER (Osaka University): Financial Market Opening and Economic Destabilization</title>
+    <link href="https://www.iser.osaka-u.ac.jp/static/resources/docs/dp/DP1326.pdf"/>
+    <id>https://www.iser.osaka-u.ac.jp/static/resources/docs/dp/DP1326.pdf</id>
+    <updated>2026-11-26T16:59:07Z</updated>
+    <author><name>ISER (Osaka University)</name></author>
+    <summary>ISER Discussion Papers. First seen 2026-11-26.</summary>
+  </entry>
   <entry>
     <title>ECGI: Corporate Organizational Structure and Decarbonization</title>
     <link href="https://www.ecgi.global/publications/working-papers/corporate-organizational-structure-and-decarbonization"/>
@@ -2332,77 +2404,5 @@
     <updated>2026-11-05T14:44:05Z</updated>
     <author><name>International Growth Centre</name></author>
     <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Why frontline workers’ beliefs about poverty may matter for local development</title>
-    <link href="https://www.theigc.org/publications/why-frontline-workers-beliefs-about-poverty-may-matter-local-development"/>
-    <id>https://www.theigc.org/publications/why-frontline-workers-beliefs-about-poverty-may-matter-local-development</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Hidden regressivities in Pakistan’s income-tax system</title>
-    <link href="https://www.theigc.org/publications/hidden-regressivities-pakistans-income-tax-system-0"/>
-    <id>https://www.theigc.org/publications/hidden-regressivities-pakistans-income-tax-system-0</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Breaking the fear that keeps markets segregated in Jos, Nigeria</title>
-    <link href="https://www.theigc.org/publications/breaking-fear-keeps-markets-segregated-jos-nigeria"/>
-    <id>https://www.theigc.org/publications/breaking-fear-keeps-markets-segregated-jos-nigeria</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Prioritising environmental enforcement with satellite data: Evidence from brick kilns in Bangladesh</title>
-    <link href="https://www.theigc.org/publications/prioritising-environmental-enforcement-satellite-data-evidence-brick-kilns-bangladesh"/>
-    <id>https://www.theigc.org/publications/prioritising-environmental-enforcement-satellite-data-evidence-brick-kilns-bangladesh</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>African Development Bank has failed 3 runs in a row: the site answered HTTP 403</title>
-    <link href="https://www.afdb.org/en/documents/publications/working-paper-series"/>
-    <id>urn:econ-paper-watcher:warning:african-development-bank-afdb-working-paper-series:2026-11-05</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>Working papers NEP misses</name></author>
-    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
-  </entry>
-  <entry>
-    <title>Bank of Korea has failed 3 runs in a row: the site&#x27;s robots.txt asks bots to stay out of this page</title>
-    <link href="https://www.bok.or.kr/imerEng/singl/rsrchrDataEng/listCont.do?pageIndex=1&amp;targetDepth=2&amp;menuNo=600354&amp;syncMenuChekKey=0&amp;searchCnd=1&amp;searchKwd=&amp;depth2=600354&amp;depth=600093&amp;pageUnit=20"/>
-    <id>urn:econ-paper-watcher:warning:bank-of-korea-bok-working-papers:2026-11-05</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>Working papers NEP misses</name></author>
-    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
-  </entry>
-  <entry>
-    <title>Federal Trade Commission has failed 3 runs in a row: the site answered HTTP 403</title>
-    <link href="https://www.ftc.gov/policy/reports/policy-reports/economics-research/working-papers"/>
-    <id>urn:econ-paper-watcher:warning:federal-trade-commission-bureau-of-economics-working-papers:2026-11-05</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>Working papers NEP misses</name></author>
-    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
-  </entry>
-  <entry>
-    <title>Securities and Exchange Commission has failed 3 runs in a row: the site answered HTTP 403</title>
-    <link href="https://www.sec.gov/about/divisions-offices/division-economic-risk-analysis/working-papers"/>
-    <id>urn:econ-paper-watcher:warning:securities-and-exchange-commission-dera-working-papers:2026-11-05</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>Working papers NEP misses</name></author>
-    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
-  </entry>
-  <entry>
-    <title>Social Security Administration has failed 3 runs in a row: the site answered HTTP 403</title>
-    <link href="https://www.ssa.gov/policy/json/research.json"/>
-    <id>urn:econ-paper-watcher:warning:social-security-administration-ores-working-papers:2026-11-05</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>Working papers NEP misses</name></author>
-    <summary>Its recipe in sources.toml probably needs fixing; see the README.</summary>
   </entry>
 </feed>
