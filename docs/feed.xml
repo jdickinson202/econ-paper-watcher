@@ -4,7 +4,55 @@
   <subtitle>New papers from economics working-paper series that are hard to follow any other way</subtitle>
   <id>urn:econ-paper-watcher:jdickinson202/econ-paper-watcher</id>
   <link rel="self" href="https://jdickinson202.github.io/econ-paper-watcher/feed.xml"/>
-  <updated>2026-11-26T16:59:07Z</updated>
+  <updated>2026-11-27T16:44:44Z</updated>
+  <entry>
+    <title>National Bank of Belgium: The Transmission of Euro Area Monetary Policy Shocks in the Belgian Firm-to-Firm Production Network</title>
+    <link href="https://www.nbb.be/en/publications-research/all-publications/transmission-euro-area-monetary-policy-shocks-belgian-firm-firm-production-network"/>
+    <id>https://www.nbb.be/en/publications-research/all-publications/transmission-euro-area-monetary-policy-shocks-belgian-firm-firm-production-network</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>National Bank of Belgium</name></author>
+    <summary>NBB Working Papers. First seen 2026-11-27.</summary>
+  </entry>
+  <entry>
+    <title>SALDRU (University of Cape Town): Socio-Emotional and Cognitive Effects of Kindergarten Education: Longitudinal Evidence from Ethiopia</title>
+    <link href="https://opensaldru.uct.ac.za/handle/11090/1069"/>
+    <id>https://opensaldru.uct.ac.za/handle/11090/1069</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>SALDRU (University of Cape Town)</name></author>
+    <summary>SALDRU Working Papers. First seen 2026-11-27.</summary>
+  </entry>
+  <entry>
+    <title>SALDRU (University of Cape Town): Causal effects of parental socioeconomic status on child development in Ethiopia</title>
+    <link href="https://opensaldru.uct.ac.za/handle/11090/1068"/>
+    <id>https://opensaldru.uct.ac.za/handle/11090/1068</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>SALDRU (University of Cape Town)</name></author>
+    <summary>SALDRU Working Papers. First seen 2026-11-27.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Optimal Unemployment Insurance in the Presence of an informal sector</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/optimal-unemployment-insurance-presence-informal-sector"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/optimal-unemployment-insurance-presence-informal-sector</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-27.</summary>
+  </entry>
+  <entry>
+    <title>Toulouse School of Economics: Refining disaster risk assessment through heterogeneity inference</title>
+    <link href="https://www.tse-fr.eu/publications/working-paper/refining-disaster-risk-assessment-through-heterogeneity-inference"/>
+    <id>https://www.tse-fr.eu/publications/working-paper/refining-disaster-risk-assessment-through-heterogeneity-inference</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>Toulouse School of Economics</name></author>
+    <summary>TSE Working Papers. First seen 2026-11-27.</summary>
+  </entry>
+  <entry>
+    <title>Tinbergen Institute: A Local Nonparametric Test for Granger Causality</title>
+    <link href="https://tinbergen.nl/discussion-paper/6559/26-098-iii-a-local-nonparametric-test-for-granger-causality"/>
+    <id>https://tinbergen.nl/discussion-paper/6559/26-098-iii-a-local-nonparametric-test-for-granger-causality</id>
+    <updated>2026-11-27T16:44:44Z</updated>
+    <author><name>Tinbergen Institute</name></author>
+    <summary>TI Discussion Papers. First seen 2026-11-27.</summary>
+  </entry>
   <entry>
     <title>CAF: Poder de mercado y adopción de tecnologías digitales en América Latina</title>
     <link href="https://scioteca.caf.com/handle/123456789/2752"/>
@@ -2356,53 +2404,5 @@
     <updated>2026-11-06T14:22:11Z</updated>
     <author><name>EPIC (Chicago)</name></author>
     <summary>EPIC Working Papers. First seen 2026-11-06.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Moving demand: Spatial load allocation for electric motorcycle taxi drivers in Kigali</title>
-    <link href="https://www.theigc.org/publications/moving-demand-spatial-load-allocation-electric-motorcycle-taxi-drivers-kigali"/>
-    <id>https://www.theigc.org/publications/moving-demand-spatial-load-allocation-electric-motorcycle-taxi-drivers-kigali</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: The costs of low-intensity urban flooding and how public drainage infrastructure can help</title>
-    <link href="https://www.theigc.org/publications/costs-low-intensity-urban-flooding-and-how-public-drainage-infrastructure-can-help"/>
-    <id>https://www.theigc.org/publications/costs-low-intensity-urban-flooding-and-how-public-drainage-infrastructure-can-help</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Helping Female Entrepreneurs Manage Stress: Lessons from Nigeria</title>
-    <link href="https://www.theigc.org/publications/helping-female-entrepreneurs-manage-stress-lessons-nigeria"/>
-    <id>https://www.theigc.org/publications/helping-female-entrepreneurs-manage-stress-lessons-nigeria</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Building sustainable, robust agricultural systems: A case in Southern Zambia</title>
-    <link href="https://www.theigc.org/publications/building-sustainable-robust-agricultural-systems-case-southern-zambia"/>
-    <id>https://www.theigc.org/publications/building-sustainable-robust-agricultural-systems-case-southern-zambia</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Turning customers’ receipts into tax enforcement: Lessons from a randomised reward scheme in Khyber Pakhtunkhwa</title>
-    <link href="https://www.theigc.org/publications/turning-customers-receipts-tax-enforcement-lessons-randomised-reward-scheme-khyber"/>
-    <id>https://www.theigc.org/publications/turning-customers-receipts-tax-enforcement-lessons-randomised-reward-scheme-khyber</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
-  </entry>
-  <entry>
-    <title>International Growth Centre: Who gets to rent where? Discrimination and residential sorting in Delhi</title>
-    <link href="https://www.theigc.org/publications/who-gets-rent-where-discrimination-and-residential-sorting-delhi"/>
-    <id>https://www.theigc.org/publications/who-gets-rent-where-discrimination-and-residential-sorting-delhi</id>
-    <updated>2026-11-05T14:44:05Z</updated>
-    <author><name>International Growth Centre</name></author>
-    <summary>IGC Working Papers. First seen 2026-11-05.</summary>
   </entry>
 </feed>
